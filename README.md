@@ -1,14 +1,24 @@
 # Vibe Coding Guide for Everyone
 
-**Core Philosophy:**
-*   **Concept First, Syntax Later (if at all):** Focus on understanding what different code components *do* and how to ask the AI for them.
+With AI models getting a lot better at coding, vibe coding has been gaining serious traction. But I keep hearing the same concerns from people:
+
+- Those without a technical background or coding experience are hesitant to get started or don't know where to begin
+- Some have tried it but give up when projects get complex and they can't handle the complexity
+- Others feel overwhelmed by all the different AI coding tools out there
+- Many struggle with knowing how to effectively communicate with AI to get the results they want, even for experience programmers
+
+I want to help address all of these issues. This guide is designed to help anyone start vibe coding and build better products. I believe AI should be democratizing technology, not gatekeeping it.
+
+(While the original idea of vibe coding is having AI code without knowing what it does, but I want to take it a step further. I want to help people build better products, not just have AI code for them. So in this guide I use the term vibe coding to also mean AI-assisted coding.)
+
+## Core Philosophy
+
+*   **Concept First:** Focus on understanding what different code components *do* and how to ask the AI for them.
 *   **Tool-Centric Practicality:** The tools are the gateway. Learning how to *use the tools effectively* is paramount.
 *   **Empowerment:** The goal is to empower PMs/Designers/anyone to validate ideas, communicate better with engineers, and potentially build simple, functional prototypes or products.
 *   **Iterative Learning:** Embrace experimentation and learn from AI's responses, refining your approach.
 
----
-
-**Curriculum Structure**
+## Curriculum Structure
 
 **Module 1: Welcome to Your AI Co-Pilot (Introduction & Why)**
 *   **1.1. What is Vibe Coding & AI-Assisted Coding?**
@@ -286,3 +296,8 @@
     *   Dipping into foundational coding concepts (HTML, CSS, JS) if interest is sparked.
     *   Online communities and resources for AI-assisted development.
 *   **13.4. The Evolving Landscape of AI in Development: Stay Curious!**
+
+## Contributing
+
+Contributions are welcome! If you have any suggestions, improvements, or additional resources to share, please open an issue or submit a pull request.
+
