@@ -71,16 +71,17 @@ I want to help address all of these issues. This guide is designed to help anyon
         *   **Context:** Provide necessary background (project goals, existing tech, user persona).
         *   **Constraints:** Define limitations, technologies (e.g., "use Tailwind CSS," "vanilla JavaScript only"), standards.
         *   **Desired Output Format:** Code snippet, full file, explanation, list of steps, specific file names.
-        *   **Persona/Role-Playing:** "Act as a senior frontend developer..."
 *   **4.2. Iterative Prompting & Conversation Context:**
     *   Start broad, then refine based on AI's response. It's a dialogue!
-    *   Maintaining the "conversation" to build upon previous code/ideas. Restart/clear history when it's stuck!
+    *   Maintaining the "conversation" to build upon previous code/ideas. Restart/clear history when it's stuck/gets context pollution/working on something else.
     *   Asking follow-up questions: "Now, add validation for the email field." "Make the button blue."
+    *   Effective prompt example from Cloudflare: "You did X, but we shoudl do Y. pls fix". The most effective prompts followed a consistent pattern: clear context about the current state, explanation of why change was needed, and specific direction forward. No elaborate instructions—just contextual feedback that felt remarkably like correcting a colleague. [reference](https://www.maxemitchell.com/writings/i-read-all-of-cloudflares-claude-generated-commits/)
 *   **4.3. Advanced Prompting Tactics (Simplified):**
     *   **Few-Shot Prompting (Providing Examples):** "Here's some similar HTML/CSS, build a new card component in the same style for a 'testimonial'."
     *   **Asking for Alternatives:** "Show me two different ways to style this form."
     *   **Chain-of-Thought/Multi-Step Requests:** "First, create the HTML structure for a login form. Then, add CSS styles using Tailwind. Finally, write JavaScript for basic client-side validation."
     *   **Plan before action**
+    *   **Treat prompts as version-controlled assets**: Including prompts in commit messages creates valuable context for future maintenance and debugging.
 *   **4.4. Practice Lab: Crafting & Refining Prompts**
     *   Exercises: Develop prompts for a login form, a hero section, a data filtering function. Iterate based on (mock) AI responses.
 
