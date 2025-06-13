@@ -18,7 +18,9 @@ I want to help address all of these issues. This guide is designed to help anyon
 *   **Empowerment:** The goal is to empower PMs/Designers/anyone to validate ideas, communicate better with engineers, and potentially build simple, functional prototypes or products.
 *   **Iterative Learning:** Embrace experimentation and learn from AI's responses, refining your approach.
 
-## Curriculum Structure
+## Curriculum Structure (Tentative)
+
+The following curriculum structure is tentative and subject to change. I will update it as I write the actual lessons.
 
 **Module 1: Welcome to Your AI Co-Pilot (Introduction & Why)**
 *   **1.1. What is Vibe Coding & AI-Assisted Coding?**
@@ -45,6 +47,7 @@ I want to help address all of these issues. This guide is designed to help anyon
     *   Account creation, installation, basic configuration.
     *   Navigating the interface (e.g., where to type prompts, see code, manage files).
 *   **2.3. Your First Interaction:** A simple "Hello World" equivalent, like asking the AI to generate a basic HTML page with a heading, to build confidence.
+*   **2.4. Improve your experience with Rules for AI:** cursorrules
 
 **Module 3: The AI-Assisted Workflow: From Idea to Interactive Prototype**
 *   **3.1. Step 1: Define & Plan (Human First):**
@@ -297,6 +300,12 @@ I want to help address all of these issues. This guide is designed to help anyon
     *   Dipping into foundational coding concepts (HTML, CSS, JS) if interest is sparked.
     *   Online communities and resources for AI-assisted development.
 *   **13.4. The Evolving Landscape of AI in Development: Stay Curious!**
+
+## Disclosure About the Use of AI
+I gather info and design the curriculum of this course. I wanted to share everything I learned along the way that I worked with AI coders in my own experience. For everything lesson, I write the main ideas & first drafts, but I rely on AI for fixing grammar mistakes & typos, and making edits to make this read better. So some sentences may read like AI to you, but the ideas were by myself.
+
+## About the Author
+I'm Troy Zhao, a product manager for my full-time job. But I do love to code some projects in my spare time. I also keep close track of AI progress. On [my GitHub profile](https://github.com/Troyanovsky), you may find some userful projects like [running local LLM](https://github.com/Troyanovsky/Local-LLM-Comparison-Colab-UI), [useful AI prompts](https://github.com/Troyanovsky/AI-Professional-Prompts), [autonomous agent tutorial](https://github.com/Troyanovsky/autonomous_agent_tutorial), and [projects that use AI](https://github.com/Troyanovsky/Building-with-GenAI). I also write about AI and product management on [Medium](https://medium.com/@guodong_zhao). I'm sure you'll find my content and projects useful.
 
 ## Contributing
 
