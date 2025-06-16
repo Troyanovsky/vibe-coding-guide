@@ -22,22 +22,10 @@ I want to help address all of these issues. This guide is designed to help anyon
 
 The following curriculum structure is tentative and subject to change. I will update it as I write the actual lessons.
 
-**Module 1: Welcome to Your AI Co-Pilot (Introduction & Why)**
-*   **1.1. What is Vibe Coding & AI-Assisted Coding?**
-    *   Definition: Vibe Coding (focus on desired outcome/description), AI-assisted (using generative AI tools).
-    *   AI as Augmentation, not Replacement: Emphasize the *collaborative* nature (human + AI agent). You are still the driver.
-*   **1.2. Why This Matters for PMs/Designers/Non-Coders:**
-    *   Rapid Prototyping & Idea Validation (faster iterations, tangible demos).
-    *   Enhanced Communication (shared understanding of possibilities, limitations with dev teams).
-    *   Quick Technical Feasibility Checks for features.
-    *   Empowerment for small tasks, tweaks, and content updates.
-    *   A Gentle, Practical Introduction to Programming Concepts.
-*   **1.3. Setting Expectations & Limitations:**
-    *   AI is a powerful *assistant*, not a magic wand.
-    *   AI limitations: Hallucinations, errors, sometimes non-optimal/insecure code, knowledge cut-off dates.
-    *   The "Human-in-the-Loop" is Essential: Your judgment, testing, and verification are key.
-*   **1.4. Responsible & Ethical AI Use:**
-    *   Brief overview: Bias in AI output, code ownership (IP), data privacy, security awareness.
+# Lesson 1: Welcome to Vibe Coding
+[Link to Lesson 1](en/Lesson_1_Intro.md).
+
+This lesson introduced vibe coding and AI-assisted coding, why it matters to you, and what to expect for vibe coding and this course.
 
 **Module 2: Your AI Toolbelt (Setup & Familiarization)**
 *   **2.1. Overview of AI Coding Tools:**
