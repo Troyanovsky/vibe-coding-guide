@@ -13,41 +13,43 @@ I want to help address all of these issues. This guide is designed to help anyon
 
 ## Core Philosophy
 
-*   **Concept First:** Focus on understanding what different code components *do* and how to ask the AI for them.
-*   **Tool-Centric Practicality:** The tools are the gateway. Learning how to *use the tools effectively* is paramount.
+*   **Hands-on Experience:** Focus on hands-on experience of AI coding, with practical tips and exmaples.
+*   **Tool-Centric Practicality:** The tools are the gateway. Learning how to *use the tools effectively* is important.
 *   **Empowerment:** The goal is to empower PMs/Designers/anyone to validate ideas, communicate better with engineers, and potentially build simple, functional prototypes or products.
 *   **Iterative Learning:** Embrace experimentation and learn from AI's responses, refining your approach.
 
-## Curriculum Structure (Tentative)
+## Lessons
 
-The following curriculum structure is tentative and subject to change. I will update it as I write the actual lessons.
-
-# Lesson 1: Welcome to Vibe Coding
+### Lesson 1: Welcome to Vibe Coding
 [Link to Lesson 1](en/Lesson_1_Intro.md).
 
-This lesson introduced vibe coding and AI-assisted coding, why it matters to you, and what to expect for vibe coding and this course.
+- This lesson introduced vibe coding and AI-assisted coding, why it matters to you, and what to expect for vibe coding and this course.
+- If you don't know what vibe coding is and how it might help you, this lesson is for you.
 
-**Module 2: Your AI Toolbelt (Setup & Familiarization)**
-*   **2.1. Overview of AI Coding Tools:**
-    *   Categories: In-Editor Assistants (e.g., Cursor, GitHub Copilot, Gemini Code Assistant in VS Code), Chat Interfaces (e.g., ChatGPT, Claude, Gemini/AI Studio), Specialized UI Generators (e.g., V0.dev, Galileo AI).
-    *   Showcase: Briefly introduce 2-3 primary tools for hands-on exercises (e.g., Cursor for code generation/editing, ChatGPT/Claude for general logic and explanations, V0.dev for UI).
-*   **2.2. Setting Up Your Primary Tool(s):**
-    *   Account creation, installation, basic configuration.
-    *   Navigating the interface (e.g., where to type prompts, see code, manage files).
-*   **2.3. Your First Interaction:** A simple "Hello World" equivalent, like asking the AI to generate a basic HTML page with a heading, to build confidence.
-*   **2.4. Improve your experience with Rules for AI:** cursorrules
+### Lesson 2: Your AI Toolbelt
+[Link to Lesson 2](en/Lesson_2_Tools.md)
+
+- This lesson explores the different AI coding tools available on the market, recommendations for tools and the recommended initial set up (models/MCP/rules).
+- If you're unsure which tool to use, which models to choose for your AI coding tools, or need some tips on MCP and AI rules, this lesson is for you.
+
+## Curriculum (Tentative)
+
+The following curriculum structure for the rest of the lessons is tentative and subject to change. I will update it as I write the actual lessons.
 
 **Module 3: The AI-Assisted Workflow: From Idea to Interactive Prototype**
 *   **3.1. Step 1: Define & Plan (Human First):**
     *   Clear Product Requirements (User Stories, Key Features).
     *   **Vibe-PMing with AI:** Use AI to refine and clarify your product requirements, exploring different user flows and potential edge cases based on your initial concepts.
+        *   When initiating a project with AI, your first prompt should be comprehensive, detailing: Project overview, Platform specification, Purpose and use case, Core features list, Design style guidance, Technical specifications. [reference](https://www.figma.com/blog/8-ways-to-build-with-figma-make/)
 *   **3.2. Step 2: AI-Assisted Technical Design & Planning:**
     *   **AI Design of Technical Architecture:** Ask the AI to suggest a high-level technical architecture based on your product requirements (e.g., "Suggest a basic architecture for a simple recipe website, including frontend structure and potential backend needs").
     *   **AI Task Breakdown:** Have the AI break down the technical architecture into step-by-step implementation tasks (e.g., "Now, break down the recipe website architecture into frontend tasks like 'Create recipe list page HTML', 'Add recipe detail styling', and backend tasks like 'Design recipe data model', 'Implement API endpoint for recipes'").
+        *   This often involves asking the AI to break down complex projects into manageable, atomic tasks. [reference](https://www.figma.com/blog/8-ways-to-build-with-figma-make/)
     *   Plan Your Prompts & Leverage Your Reusable Assets:
     *   Break down requirements into specific, actionable prompts, potentially referencing the AI-generated tasks.
     *   Identify where your pre-defined reusable components can be used.
     *   Choose the right AI tool for each task.
+    *   For complex workflows, leverage checklists and scratchpads (either external or within your AI conversation) to keep track of steps and requirements. [reference](https://www.anthropic.com/engineering/claude-code-best-practices)
 *   **3.3. Step 3: "Coding" - The Iterative Prompting & Generation Phase:**
     *   Generating HTML structure, then CSS styles (e.g., using Tailwind via prompts), then basic JS interactivity.
     *   Prompting for specific components, referencing your reusable assets where applicable.
@@ -59,11 +61,12 @@ This lesson introduced vibe coding and AI-assisted coding, why it matters to you
 *   **4.1. The Art of the Effective Prompt: Why It's Your Superpower**
     *   Key elements:
         *   **Clarity & Specificity:** Be explicit. What *exactly* do you want?
-        *   **Context:** Provide necessary background (project goals, existing tech, user persona).
+        *   **Context:** Provide necessary background (project goals, existing tech, user persona). Ensure clear context to keep the AI's focus narrow and prevent 'context pollution'.
         *   **Constraints:** Define limitations, technologies (e.g., "use Tailwind CSS," "vanilla JavaScript only"), standards.
         *   **Desired Output Format:** Code snippet, full file, explanation, list of steps, specific file names.
 *   **4.2. Iterative Prompting & Conversation Context:**
     *   Start broad, then refine based on AI's response. It's a dialogue!
+    *   Course correct your AI early and often if its output isn't aligning with your vision.
     *   Maintaining the "conversation" to build upon previous code/ideas. Restart/clear history when it's stuck/gets context pollution/working on something else.
     *   Asking follow-up questions: "Now, add validation for the email field." "Make the button blue."
     *   Effective prompt example from Cloudflare: "You did X, but we shoudl do Y. pls fix". The most effective prompts followed a consistent pattern: clear context about the current state, explanation of why change was needed, and specific direction forward. No elaborate instructions—just contextual feedback that felt remarkably like correcting a colleague. [reference](https://www.maxemitchell.com/writings/i-read-all-of-cloudflares-claude-generated-commits/)
@@ -73,6 +76,7 @@ This lesson introduced vibe coding and AI-assisted coding, why it matters to you
     *   **Chain-of-Thought/Multi-Step Requests:** "First, create the HTML structure for a login form. Then, add CSS styles using Tailwind. Finally, write JavaScript for basic client-side validation."
     *   **Plan before action**
     *   **Treat prompts as version-controlled assets**: Including prompts in commit messages creates valuable context for future maintenance and debugging.
+    *   **Image-Based Prompting (if supported):** Some advanced models allow you to include images (e.g., screenshots of UIs, diagrams) directly in your prompts to provide visual context for design or debugging tasks. [reference](https://www.anthropic.com/engineering/claude-code-best-practices)
 *   **4.4. Practice Lab: Crafting & Refining Prompts**
     *   Exercises: Develop prompts for a login form, a hero section, a data filtering function. Iterate based on (mock) AI responses.
 
@@ -156,6 +160,7 @@ This lesson introduced vibe coding and AI-assisted coding, why it matters to you
 **Module 8: Designing for AI: Building Your Reusable Asset Library**
 *   **8.1. Why Reusable Assets Supercharge AI Assistance:**
     *   Ensures consistency in UI/UX across your prototype.
+    *   Fosters visual consistency and cohesion across your project, just as with traditional design systems. [reference](https://www.figma.com/blog/8-ways-to-build-with-figma-make/)
     *   Speeds up development by reducing repetitive prompting.
     *   Acts as a "mini style guide" for the AI, leading to more predictable output.
     *   Empowers you to define core elements once and reuse them.
@@ -186,6 +191,7 @@ This lesson introduced vibe coding and AI-assisted coding, why it matters to you
     *   Pasting definitions/snippets directly into the prompt.
     *   In tools like Cursor, referencing files (`@my_button_component.html`).
     *   Creating a simple "Project Style Guide" document (text file) with component descriptions and telling the AI to refer to it.
+    *   Consider creating specific documentation files (e.g., `Claude.md` or `AI_Guidelines.md`) within your project to house project-specific context, style guides, or frequently used snippets for the AI to reference. [reference](https://www.anthropic.com/engineering/claude-code-best-practices)
 
 **Module 9: Testing, Debugging, and Quality Checks with AI**
 *   *Crucial for ensuring AI output is functional and as expected.*
@@ -206,6 +212,9 @@ This lesson introduced vibe coding and AI-assisted coding, why it matters to you
 *   **9.4. Basic Code Quality & Review (with AI help):**
     *   Awareness: AI code can sometimes be verbose, inefficient, or have minor security oversights.
     *   Asking AI: "Can you review this code for clarity?" "Are there any obvious performance issues here?" "Suggest improvements to make this JavaScript more readable." (Set realistic expectations).
+    *   Ask the AI to generate simple, maintainable code, prioritizing functions over complex class hierarchies or deep inheritance when possible. [reference](https://lucumr.pocoo.org/2025/6/12/agentic-coding/)
+    *   Ask the AI to refactor existing code for improved readability, maintainability, or efficiency.
+    *   **Peer Review with AI (Advanced):** In workflows with multiple AI instances, consider using one AI agent to generate code and another to perform a review or verification pass on the generated code. [reference](https://www.anthropic.com/engineering/claude-code-best-practices)
 *   **9.5. Automated PR Review with AI Tools:**
     *   Some advanced AI coding tools (like Cursor, or potentially future integrations with tools like GitHub Copilot or specialized code review AI) can assist in reviewing Pull Requests.
     *   These tools can highlight potential bugs, suggest improvements, check for style consistency, and identify security vulnerabilities *based on the context of the code change*.
@@ -226,6 +235,13 @@ This lesson introduced vibe coding and AI-assisted coding, why it matters to you
     *   **Use a Linter for Code Style:** Tools like linters (e.g., ESLint for JavaScript, Prettier for formatting) help enforce consistent code style, readability, and identify potential issues like function complexity or excessive lines of code. AI can often generate code that adheres to common linting rules if asked.
     *   **Don't Trust, Verify:** *Always* test AI-generated code thoroughly.
     *   **Quick Validation in a New Folder:** For completely new ideas or isolated components, quickly generate the code in a separate folder outside your main project. If it works, you can then carefully integrate it.
+    *   When designing tasks for AI, consider if they can be broken down into parallelizable units to improve efficiency, especially in multi-agent or multi-checkout environments. [reference](https://lucumr.pocoo.org/2025/6/12/agentic-coding/)
+    *   For complex projects or parallel exploration, consider having multiple local checkouts (clones) of your repository to allow different AI conversations or experiments to run concurrently without interfering with each other. [reference](https://www.anthropic.com/engineering/claude-code-best-practices)
+    *   **Common AI-Assisted Workflows:**
+        *   **Explore, Plan, Code, Commit:** A standard cycle where you define requirements, plan with AI, generate code, and commit your progress.
+        *   **Test-Driven AI Development:** Write or define your tests first, then use AI to generate the code that passes those tests, committing both tests and code. (Reinforces Module 9)
+        *   **Visual Iteration:** Generate code, immediately screenshot or preview the result, and use visual feedback to refine your next prompt for UI adjustments.
+        *   **Safe YOLO Mode (Experimentation Branching):** When exploring highly experimental or uncertain paths, create a temporary Git branch (`git checkout -b my-new-feature`). This allows you to generate and test code rapidly without fear of breaking your main codebase. If it works, integrate; if not, discard the branch (`git branch -D my-new-feature`). This provides a safe sandbox. [reference](https://www.anthropic.com/engineering/claude-code-best-practices)
 *   **10.3. Basic Project Organization:**
     *   Simple file/folder structure (e.g., `index.html`, `css/style.css`, `js/script.js`, `images/`).
     *   Keeping reusable components/snippets organized.
@@ -267,6 +283,7 @@ This lesson introduced vibe coding and AI-assisted coding, why it matters to you
 **Module 12: Advanced Context Awareness: Leveraging Model Context Protocol (MCP)**
 *   **12.1. What is MCP?** (Simplified): A way for AI tools to have a deeper understanding of your entire project's context, including files, code structures, and even documentation.
 *   **12.2. How Tools Like Cursor Implement This:** Using special commands or symbols (e.g., `@` mentioning files, `@` for symbols/functions within your codebase, or even `@docs` to reference documentation).
+    *   Explicitly mentioning files or directories you want the AI to consider (e.g., `@filename.js` or `src/components/`) helps the AI focus its context. [reference](https://www.anthropic.com/engineering/claude-code-best-practices)
 *   **12.3. Benefits:**
     *   Highly contextual and accurate prompts: AI "knows" what `utils/helpers.js` contains.
     *   More precise code generation, modification, and refactoring.
