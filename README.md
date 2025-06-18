@@ -32,31 +32,17 @@ I want to help address all of these issues. This guide is designed to help anyon
 - This lesson explores the different AI coding tools available on the market, recommendations for tools and the recommended initial set up (models/MCP/rules).
 - If you're unsure which tool to use, which models to choose for your AI coding tools, or need some tips on MCP and AI rules, this lesson is for you.
 
+### Lesson 3: AI-Assisted Workflow
+[Link to Lesson 3](en/Lesson_3_Workflow.md)
+
+- This lesson walks you through my recommended workflow of building app from scratch with AI.
+- If you want to learn how to build a simple app from scratch with AI or want to make the AI-generated app more robust and maintainable, it's a recommended read.
+
 ## Curriculum (Tentative)
 
 The following curriculum structure for the rest of the lessons is tentative and subject to change. I will update it as I write the actual lessons.
 
-**Module 3: The AI-Assisted Workflow: From Idea to Interactive Prototype**
-*   **3.1. Step 1: Define & Plan (Human First):**
-    *   Clear Product Requirements (User Stories, Key Features).
-    *   **Vibe-PMing with AI:** Use AI to refine and clarify your product requirements, exploring different user flows and potential edge cases based on your initial concepts.
-        *   When initiating a project with AI, your first prompt should be comprehensive, detailing: Project overview, Platform specification, Purpose and use case, Core features list, Design style guidance, Technical specifications. [reference](https://www.figma.com/blog/8-ways-to-build-with-figma-make/)
-*   **3.2. Step 2: AI-Assisted Technical Design & Planning:**
-    *   **AI Design of Technical Architecture:** Ask the AI to suggest a high-level technical architecture based on your product requirements (e.g., "Suggest a basic architecture for a simple recipe website, including frontend structure and potential backend needs").
-    *   **AI Task Breakdown:** Have the AI break down the technical architecture into step-by-step implementation tasks (e.g., "Now, break down the recipe website architecture into frontend tasks like 'Create recipe list page HTML', 'Add recipe detail styling', and backend tasks like 'Design recipe data model', 'Implement API endpoint for recipes'").
-        *   This often involves asking the AI to break down complex projects into manageable, atomic tasks. [reference](https://www.figma.com/blog/8-ways-to-build-with-figma-make/)
-    *   Plan Your Prompts & Leverage Your Reusable Assets:
-    *   Break down requirements into specific, actionable prompts, potentially referencing the AI-generated tasks.
-    *   Identify where your pre-defined reusable components can be used.
-    *   Choose the right AI tool for each task.
-    *   For complex workflows, leverage checklists and scratchpads (either external or within your AI conversation) to keep track of steps and requirements. [reference](https://www.anthropic.com/engineering/claude-code-best-practices)
-*   **3.3. Step 3: "Coding" - The Iterative Prompting & Generation Phase:**
-    *   Generating HTML structure, then CSS styles (e.g., using Tailwind via prompts), then basic JS interactivity.
-    *   Prompting for specific components, referencing your reusable assets where applicable.
-    *   Copying, integrating, and (lightly) modifying AI output, especially if not using an AI-native editor.
-    *   **Referencing Planning Documents:** In your prompts, refer back to the AI-generated product requirements, architecture, and implementation plan documents for context (e.g., "Implement the 'Recipe List' page HTML as described in our plan," "Add styling based on the 'Card Component' reusable asset and the overall architecture").
-
-**Module 4: Talking to the Machine: Effective Prompt Engineering (The CORE Skill)**
+**Module 4: Talking to the Machine: Effective Prompt Engineering**
 *   *This module is critical. Focus on practical application and understanding.*
 *   **4.1. The Art of the Effective Prompt: Why It's Your Superpower**
     *   Key elements:
@@ -237,11 +223,6 @@ The following curriculum structure for the rest of the lessons is tentative and 
     *   **Quick Validation in a New Folder:** For completely new ideas or isolated components, quickly generate the code in a separate folder outside your main project. If it works, you can then carefully integrate it.
     *   When designing tasks for AI, consider if they can be broken down into parallelizable units to improve efficiency, especially in multi-agent or multi-checkout environments. [reference](https://lucumr.pocoo.org/2025/6/12/agentic-coding/)
     *   For complex projects or parallel exploration, consider having multiple local checkouts (clones) of your repository to allow different AI conversations or experiments to run concurrently without interfering with each other. [reference](https://www.anthropic.com/engineering/claude-code-best-practices)
-    *   **Common AI-Assisted Workflows:**
-        *   **Explore, Plan, Code, Commit:** A standard cycle where you define requirements, plan with AI, generate code, and commit your progress.
-        *   **Test-Driven AI Development:** Write or define your tests first, then use AI to generate the code that passes those tests, committing both tests and code. (Reinforces Module 9)
-        *   **Visual Iteration:** Generate code, immediately screenshot or preview the result, and use visual feedback to refine your next prompt for UI adjustments.
-        *   **Safe YOLO Mode (Experimentation Branching):** When exploring highly experimental or uncertain paths, create a temporary Git branch (`git checkout -b my-new-feature`). This allows you to generate and test code rapidly without fear of breaking your main codebase. If it works, integrate; if not, discard the branch (`git branch -D my-new-feature`). This provides a safe sandbox. [reference](https://www.anthropic.com/engineering/claude-code-best-practices)
 *   **10.3. Basic Project Organization:**
     *   Simple file/folder structure (e.g., `index.html`, `css/style.css`, `js/script.js`, `images/`).
     *   Keeping reusable components/snippets organized.

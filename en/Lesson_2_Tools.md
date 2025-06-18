@@ -76,7 +76,7 @@ You'll want to set up 3-4 models for different purposes:
 
 **A long-context model** for understanding large codebases -- Gemini 2.5 Pro or Flash are great here. When you're working with many files and need the AI to understand how everything fits together, these models can handle much more information at once thanks to their million-token context size. (You even get to use 2.5 Flash free if you get an API key from AI Studio, OpenRouter, or on Cursor.)
 
-**Workhorse coding models** like Claude 3.7/4 Sonnet for the day-to-day coding work. These are fast, reliable, and great at following specific instructions once you have a plan.
+**Workhorse coding models** like Claude 3.7/4 Sonnet or GPT4.1 for the day-to-day coding work. These are fast, reliable, and great at following specific instructions once you have a plan.
 
 Keep in mind that AI models evolve incredibly quickly -- by the time you're reading this, there might be newer, better options available. The key principle remains the same: **use powerful thinking models for planning and fast, reliable models for executing those plans**.
 
@@ -86,15 +86,17 @@ MCP (Model Context Protocol) is a way to give your AI access to additional tools
 
 One MCP server I'd recommend starting with is **[context7](https://context7.com/)**, which helps the AI get up-to-date documentation of libraries. This can greatly reduce the chance of your LLM model hallucinating or using a deprecated method in a library.
 
+Another useful MCP server is [Sequential Thinking](https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking). This is from the official MCP team and helps the AI think through problems step-by-step, which can be very useful for complex tasks.
+
 We'll dive deeper into MCP in later lessons, but for now, just know that it's a way to extend what your AI can do beyond just reading and writing code.
 
 ### Rules for AI: Teaching Your Assistant
 
-Another very important setup that some may overlook is: **Rules for AI**. In Cursor, this is a file called `.cursorrules`. (In Claude Code, it's called `Claude.md` and similar for other tools.) Think of it as a instruction manual for how you want the AI to behave. Some tools may have more fine-grained project-level rules that you can set up.
+Another very important setup that some may overlook is: **Rules for AI**. In Cursor, this is a file called `.cursorrules`. (In Claude Code, it's called `CLAUDE.md` and similar for other tools.) Think of it as a instruction manual for how you want the AI to behave. Some tools may have more fine-grained project-level rules that you can set up.
 
 You can specify coding styles, preferred libraries, best practices, workflows. For example, you might include rules about using TypeScript, following certain naming conventions, or always including comments for complex logic.
 
-For a very simple set up, here is my simple version:
+For a basic set up, here is my simple version:
 ```
 ## Workflow
 1. Understand user request and examine existing codebase thoroughly.  
@@ -134,4 +136,4 @@ Don't feel like you need to master all these tools at once. Start with one that 
 
 The beauty of vibe coding is that you can start building things immediately, even if you don't understand every detail of how the tools work. As you get more comfortable, you can explore additional tools and features that help you work faster and build more complex projects.
 
-In our next lesson, we'll dive into actually using these tools to build your first project and start developing that all-important "vibe" for working with AI effectively.
+In our next lesson, we'll dive into the workflow for actually building an app from scratch using AI. See you there!
