@@ -1,5 +1,7 @@
 # Lesson 1: Welcome to Vibe Coding
 
+[Share on Facebook](https://www.facebook.com/sharer/sharer.php?u=https%3A//github.com/Troyanovsky/vibe-coding-guide/blob/main/en/Lesson_1_Intro.md) | [Share on Twitter](https://twitter.com/intent/tweet?text=https%3A//github.com/Troyanovsky/vibe-coding-guide/blob/main/en/Lesson_1_Intro.md) | [Share on LinkedIn](https://www.linkedin.com/shareArticle?mini=true&url=https%3A//twitter.com/intent/tweet?text=https%253A//github.com/Troyanovsky/vibe-coding-guide/blob/main/en/Lesson_1_Intro.md)
+
 ## What is Vibe Coding & AI-Assisted Coding?
 
 Let's start with what **Vibe Coding** is. Vibe coding actually means. The term was first posted by Andrej Karpathy (former OpenAI researcher and Tesla's AI director) on Twitter/X, and he describes it as coding where "you fully give in to the vibes, embrace exponentials, and forget that the code even exists." Essentially, it's having AI write code without really knowing how it works yourself.

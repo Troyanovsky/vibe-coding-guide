@@ -1,5 +1,7 @@
 # Lesson 2: Vibe Coding Tools
 
+[Share on Facebook](https://www.facebook.com/sharer/sharer.php?u=https%3A//github.com/Troyanovsky/vibe-coding-guide/blob/main/en/Lesson_2_Tools.md) | [Share on Twitter](https://twitter.com/intent/tweet?text=https%3A//github.com/Troyanovsky/vibe-coding-guide/blob/main/en/Lesson_2_Tools.md) | [Share on LinkedIn](https://www.linkedin.com/shareArticle?mini=true&url=https%3A//twitter.com/intent/tweet?text=https%253A//github.com/Troyanovsky/vibe-coding-guide/blob/main/en/Lesson_2_Tools.md)
+
 ## What Vibe Coding Tools Are Out There
 
 So now you know what vibe coding is. But where do you actually... vibe code? The good news is that AI coding tools have exploded in the past couple of years, but for some, the number of vibe coding tools might be just overwhelming. (I've seen countless posts on Reddit asking about which tool to use, maybe every day.)
@@ -136,4 +138,4 @@ Don't feel like you need to master all these tools at once. Start with one that 
 
 The beauty of vibe coding is that you can start building things immediately, even if you don't understand every detail of how the tools work. As you get more comfortable, you can explore additional tools and features that help you work faster and build more complex projects.
 
-In our next lesson, we'll dive into the workflow for actually building an app from scratch using AI. See you there!
+In our next lesson, we'll dive into the workflow for actually building an app from scratch using AI code editors. See you there!

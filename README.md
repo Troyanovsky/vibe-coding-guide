@@ -11,6 +11,9 @@ I want to help address all of these issues. This guide is designed to help anyon
 
 (While the original idea of vibe coding is having AI code without knowing what it does, but I want to take it a step further. I want to help people build better products, not just have AI code for them. So in this guide I use the term vibe coding to also mean AI-assisted coding.)
 
+[Share on Facebook](https://www.facebook.com/sharer/sharer.php?u=https%3A//github.com/Troyanovsky/vibe-coding-guide) | [Share on Twitter](https://twitter.com/intent/tweet?text=https%3A//github.com/Troyanovsky/vibe-coding-guide) | [Share on LinkedIn](https://www.linkedin.com/shareArticle?mini=true&url=https%3A//www.facebook.com/sharer/sharer.php?u=https%253A//github.com/Troyanovsky/vibe-coding-guide)
+
+
 ## Core Philosophy
 
 *   **Hands-on Experience:** Focus on hands-on experience of AI coding, with practical tips and exmaples.
