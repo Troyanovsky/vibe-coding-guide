@@ -4,7 +4,7 @@
 
 ## What is Vibe Coding & AI-Assisted Coding?
 
-Let's start with what **Vibe Coding** is. Vibe coding actually means. The term was first posted by Andrej Karpathy (former OpenAI researcher and Tesla's AI director) on Twitter/X, and he describes it as coding where "you fully give in to the vibes, embrace exponentials, and forget that the code even exists." Essentially, it's having AI write code without really knowing how it works yourself.
+Let's start with what **Vibe Coding** is. The term was first posted by Andrej Karpathy (former OpenAI researcher and Tesla's AI director) on Twitter/X, and he describes it as coding where "you fully give in to the vibes, embrace exponentials, and forget that the code even exists." Essentially, it's having AI write code without really knowing how it works yourself.
 
 **AI-assisted coding**, on the other hand, is using generative AI tools to help you code while maintaining some understanding and control over what's happening.
 
