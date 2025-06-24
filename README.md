@@ -29,45 +29,27 @@ I want to help address all of these issues. This guide is designed to help anyon
 - This lesson introduced vibe coding and AI-assisted coding, why it matters to you, and what to expect for vibe coding and this course.
 - If you don't know what vibe coding is and how it might help you, this lesson is for you.
 
-### Lesson 2: Your AI Toolbelt
+### Lesson 2: Your AI Coding Toolbelt
 [Link to Lesson 2](en/Lesson_2_Tools.md)
 
 - This lesson explores the different AI coding tools available on the market, recommendations for tools and the recommended initial set up (models/MCP/rules).
 - If you're unsure which tool to use, which models to choose for your AI coding tools, or need some tips on MCP and AI rules, this lesson is for you.
 
-### Lesson 3: AI-Assisted Workflow
+### Lesson 3: AI-Assisted Coding Workflow
 [Link to Lesson 3](en/Lesson_3_Workflow.md)
 
 - This lesson walks you through my recommended workflow of building app from scratch with AI.
 - If you want to learn how to build a simple app from scratch with AI or want to make the AI-generated app more robust and maintainable, it's a recommended read.
 
+### Lesson 4: Effective Prompting
+[Link to Lesson 4](en/Lesson_4_Prompt.md)
+
+- This lesson covers many important tips for effectively prompting AI coding tools for higher quality output.
+- If you feel that your AI coding tool often don't understand what you say or don't produce expected code, make sure you read this.
+
 ## Curriculum (Tentative)
 
 The following curriculum structure for the rest of the lessons is tentative and subject to change. I will update it as I write the actual lessons.
-
-**Module 4: Talking to the Machine: Effective Prompt Engineering**
-*   *This module is critical. Focus on practical application and understanding.*
-*   **4.1. The Art of the Effective Prompt: Why It's Your Superpower**
-    *   Key elements:
-        *   **Clarity & Specificity:** Be explicit. What *exactly* do you want?
-        *   **Context:** Provide necessary background (project goals, existing tech, user persona). Ensure clear context to keep the AI's focus narrow and prevent 'context pollution'.
-        *   **Constraints:** Define limitations, technologies (e.g., "use Tailwind CSS," "vanilla JavaScript only"), standards.
-        *   **Desired Output Format:** Code snippet, full file, explanation, list of steps, specific file names.
-*   **4.2. Iterative Prompting & Conversation Context:**
-    *   Start broad, then refine based on AI's response. It's a dialogue!
-    *   Course correct your AI early and often if its output isn't aligning with your vision.
-    *   Maintaining the "conversation" to build upon previous code/ideas. Restart/clear history when it's stuck/gets context pollution/working on something else.
-    *   Asking follow-up questions: "Now, add validation for the email field." "Make the button blue."
-    *   Effective prompt example from Cloudflare: "You did X, but we shoudl do Y. pls fix". The most effective prompts followed a consistent pattern: clear context about the current state, explanation of why change was needed, and specific direction forward. No elaborate instructions—just contextual feedback that felt remarkably like correcting a colleague. [reference](https://www.maxemitchell.com/writings/i-read-all-of-cloudflares-claude-generated-commits/)
-*   **4.3. Advanced Prompting Tactics (Simplified):**
-    *   **Few-Shot Prompting (Providing Examples):** "Here's some similar HTML/CSS, build a new card component in the same style for a 'testimonial'."
-    *   **Asking for Alternatives:** "Show me two different ways to style this form."
-    *   **Chain-of-Thought/Multi-Step Requests:** "First, create the HTML structure for a login form. Then, add CSS styles using Tailwind. Finally, write JavaScript for basic client-side validation."
-    *   **Plan before action**
-    *   **Treat prompts as version-controlled assets**: Including prompts in commit messages creates valuable context for future maintenance and debugging.
-    *   **Image-Based Prompting (if supported):** Some advanced models allow you to include images (e.g., screenshots of UIs, diagrams) directly in your prompts to provide visual context for design or debugging tasks. [reference](https://www.anthropic.com/engineering/claude-code-best-practices)
-*   **4.4. Practice Lab: Crafting & Refining Prompts**
-    *   Exercises: Develop prompts for a login form, a hero section, a data filtering function. Iterate based on (mock) AI responses.
 
 **Module 5: Understanding the Landscape (Basic Concepts AI Uses)**
 *   *Focus remains conceptual, framed around understanding AI output and asking better questions.*
