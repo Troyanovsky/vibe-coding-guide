@@ -46,6 +46,8 @@ Another great choice is **[Augment Code](https://www.augmentcode.com/)**. It's a
 
 Claude Code is like having an AI pair programmer who never gets tired. It can edit files across your entire codebase, fix bugs, answer questions about your architecture, and even handle git operations. You can even have mulitple Claude Code agents working on different parts of your code simutaneously.
 
+Google also released their version of CLI tool, called [Gemini Cli](https://github.com/google-gemini/gemini-cli). The tool itsel is open-sourced on GitHub and uses Gemini 2.5 Pro as the underlying model. What is good about it is that they offer generous free usage, 60 requests per minute and 1000 per day. But it's less polished compared to Claude Code at the moment.
+
 Aider takes a similar approach but supports multiple AI models from other providers. They even have [a leaderboard](https://aider.chat/docs/leaderboards/) to compare different models for coding.
 
 The beauty of CLI tools is that they work with your existing workflow. You don't need to learn a new interface -- just chat with AI right in your terminal.
