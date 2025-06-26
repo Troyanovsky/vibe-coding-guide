@@ -36,7 +36,7 @@ AI has real limitations you need to know about. It hallucinates sometimes, makes
 
 The key thing to remember is that the **"human-in-the-loop"** is essential. Your judgment, testing, and verification are what make this whole process work. You're not just blindly accepting whatever the AI spits out – you're actively collaborating with it.
 
-One important note: be sure to check the policies of any AI tool you use. Look into whether they'll use your content or code for training, who owns the IP, and what their data retention policies are. Typically, AI coding tools with paid plans won't train on your data, but always double-check for yourself.
+Another important note: be sure to check the policies of any AI tool you use. Look into whether they'll use your content or code for training, who owns the IP, and what their data retention policies are. Typically, AI coding tools with paid plans won't train on your data, but always double-check for yourself.
 
 ## Quick Preview of the Course
 
