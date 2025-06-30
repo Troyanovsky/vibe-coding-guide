@@ -2,27 +2,6 @@
 
 The following curriculum structure for the rest of the lessons is tentative and subject to change. I will update it as I write the actual lessons.
 
-**Module 5: Understanding the Landscape (Basic Concepts AI Uses)**
-*   *Focus remains conceptual, framed around understanding AI output and asking better questions.*
-*   **5.1. What is Code? (A High-Level View):** Instructions, different "languages" for different tasks.
-*   **5.2. Frontend vs. Backend Explained Simply:**
-    *   **Frontend (The "Storefront"):** What the user sees and interacts with.
-        *   HTML: Structure (the nouns, the blueprint).
-        *   CSS: Styling (the adjectives, the interior design). Mention Vanilla & utility-first (e.g., Tailwind CSS).
-        *   JavaScript (JS): Behavior & Interactivity (the verbs, making things work). Mention JS frameworks (React, Vue, Angular) as ways to organize complex JS (AI can generate snippets, but focus on JS basics first).
-    *   **Backend (The "Warehouse & Office"):** The engine room (data storage, business logic, security).
-        *   Databases: Where information lives (filing cabinets).
-        *   Server-Side Logic/Frameworks: Processing requests, managing data (the office manager). (e.g. Node.js/Express, Python/Django).
-        *   Cloud Functions/Serverless: Running backend bits without managing servers (renting specific services).
-*   **5.3. APIs (Application Programming Interfaces):** How different software parts talk to each other (the messenger service or a restaurant menu).
-*   **5.4. Basic Building Blocks AI Generates (Conceptual):**
-    *   Variables (labeled boxes for information).
-    *   Lists/Arrays (ordered collections).
-    *   Objects (collections of labeled data, like a contact card).
-    *   Functions (reusable sets of instructions/recipes).
-    *   Conditional Logic (If/Else: making decisions).
-    *   Loops (doing things repeatedly).
-
 **Module 6: Frontend Prompt Mastery: UI & User Experience**
 *   **6.1. Goal:** Create a responsive product card.
 *   **6.2. Vague Prompt:** "Make a product card."

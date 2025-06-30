@@ -47,6 +47,18 @@ I want to help address all of these issues. This guide is designed to help anyon
 - This lesson covers many important tips for effectively prompting AI coding tools for higher quality output.
 - If you feel that your AI coding tool often don't understand what you say or don't produce expected code, make sure you read this.
 
+### Lesson 5: Understanding Code
+[Link to Lesson 5](en/Lesson_5_Code_Basics.md)
+
+- This lesson teaches the basics of code, including frontend vs backend, how they communicate, and their basic building blocks.
+- This lesson is useful if you don't know how to code/programming and need some primer of the baisc concepts to help you better communicate with AI coding tools.
+
+### Lesson 6: Frontend Prompting
+[Link to Lesson 6](en/Lesson_6_Frontend_Prompt.md)
+
+- This lesson teaches you how to write effective prompts for developing frontend (focusing on UI and UX) with AI coding tools, including analysis of a good prompt and tips for prompting.
+- This lesson is useful if you need to develop UI for your app.
+
 ## Disclosure About the Use of AI
 I gather info and design the curriculum of this course. I wanted to share everything I learned along the way that I worked with AI coders in my own experience. For everything lesson, I write the main ideas & first drafts, but I rely on AI for fixing grammar mistakes & typos, and making edits to make this read better. So some sentences may read like AI to you, but the ideas were by myself.
 
