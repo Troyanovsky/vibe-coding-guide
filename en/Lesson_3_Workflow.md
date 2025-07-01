@@ -8,7 +8,7 @@ So you've experimented with AI coding tools and maybe built a few small projects
 
 Here's the thing: successful AI-assisted development isn't about finding the perfect prompt. It's about having a **structured workflow** that keeps both you and the AI on track. Think of it like having a roadmap for a road trip -- you could just start driving and hope for the best, but you'll get much better results with some planning.
 
-The workflow I'm about to show you works whether you're a product manager who's never touched code or a engineer who has programming experience. It's flexible and you can just take the core idea and adapt it to your needs.
+The workflow I'm about to show you works whether you're a product manager who's never touched code or an engineer who has programming experience. It's flexible, and you can just take the core idea and adapt it to your needs.
 
 ## Step 1: Define & Plan
 
@@ -16,7 +16,7 @@ The workflow I'm about to show you works whether you're a product manager who's 
 
 Before the AI writes down any line of code, you need to know what you're building. This sounds obvious, but most people skip this step and wonder why the AI keeps building the wrong thing.
 
-Start by writing down your **user stories** and **key features** in detail. Don't just say "I want a recipe app." Instead, write something like:
+Start by writing down your **user stories** and **key features** in detail. Don't just say, "I want a recipe app." Instead, write something like:
 
 > "As a home cook, I want to search for recipes by ingredients I have at home, so I can decide what to cook without going to the store. The app should let me input ingredients, show matching recipes with photos, and save my favorites."
 
@@ -26,18 +26,18 @@ Be specific about what you want the AI to build. The more detail you provide upf
 
 ### Vibe-PMing with AI
 
-If you're a product manager like me, I guess you're pretty comfortable with writing PRD (product requirement document). But if you don't have the skills, don't worry. You can use AI to help you.
+If you're a product manager like me, I guess you're pretty comfortable with writing a PRD (product requirement document). But if you don't have the skills, don't worry. You can use AI to help you.
 
 If you're just can't clearly lay out what you want to build. You can actually use AI to help you **refine your own product requirements**. I would call it "vibe-PMing" -- having the AI act as your product manager.
 
-You can do this step in your AI chat interface and not necessarily in the AI codin gtools. Start a conversation with your AI and say something like: "I want to build a recipe app where users can search by ingredients. Help me think through the user flows and potential edge cases. Make sure to ask me questions to clarify."
+You can do this step in your AI chat interface and not necessarily in the AI coding tools. Start a conversation with your AI and say something like: "I want to build a recipe app where users can search by ingredients. Help me think through the user flows and potential edge cases. Make sure to ask me questions to clarify."
 
 The AI might come back with questions like:
 - "What happens if a user searches for an ingredient that's not in your database?"
 - "Should users be able to filter by dietary restrictions?"
 - "How do you handle recipe variations or substitutions?"
 
-Have this conversation over multiple rounds. Add any requirements or ideas that comes into your mind. Let the AI challenge your assumptions and suggest features you hadn't thought of. Once you're happy with the direction, ask the AI to summarize everything into a clean `requirements.md` document and save it to your project folder.
+Have this conversation over multiple rounds. Add any requirements or ideas that come into your mind. Let the AI challenge your assumptions and suggest features you hadn't thought of. Once you're happy with the direction, ask the AI to summarize everything into a clean `requirements.md` document and save it to your project folder.
 
 This document becomes your north star -- both for you and for the AI in later steps.
 
@@ -57,7 +57,7 @@ Give the AI as much context as possible:
 
 If your AI tool has different modes or roles (like "architect mode" in Roo Clide), use that. Have the AI generate a `system_design.md` document that outlines the overall structure, main components, and how they'll work together.
 
-Or if the AI tool doesn't have such mode, you can try this prompt:
+Or if the AI tool doesn't have such a mode, you can try this prompt:
 
 ```
 1.  **Understand Requirements:**
@@ -79,11 +79,11 @@ Or if the AI tool doesn't have such mode, you can try this prompt:
     *   Make sure you create a `/doc` folder that includes a markdown file of your design.
 ```
 
-You don't need to understand every technical detail, but having this roadmap prevents the AI from making random architectural decisions on-the-fly later when actually coding.
+You don't need to understand every technical detail, but having this roadmap prevents the AI from making random architectural decisions on the fly later when actually coding.
 
 ### AI Task Breakdown
 
-Large projects feel overwhelming, but every complex app is just a collection of smaller, manageable pieces (modularity and decoupling are some good practices). You can ask the AI to break down your system design into step-by-step implementation tasks. This works well especially with thinking models like GPT o3, Claude 4 Opus, or Gemini 2.5 Pro.
+Large projects feel overwhelming, but every complex app is just a collection of smaller, manageable pieces (modularity and decoupling are some good practices). You can ask the AI to break down your system design into step-by-step implementation tasks. This works well, especially with thinking models like GPT o3, Claude 4 Opus, or Gemini 2.5 Pro.
 
 Reference both your `requirements.md` and `system_design.md` and ask the AI: "Break this down into specific implementation tasks, ordered by priority and dependencies."
 
@@ -116,11 +116,11 @@ This is the standard cycle we just walked through: define requirements, plan wit
 
 ### Test-Driven AI Development
 
-If you care more about the generated code working exactly as how you want, you may try Test-Driven Development (TDD).
+If you care more about the generated code working exactly as you want, you may try Test-Driven Development (TDD).
 
 You can first clearly describe the behavior or input/output you want from your program, then ask the AI to generate tests from that. After the tests are generated, you can ask the AI to generate the code that passes those tests.
 
-The AI can run the tests while developing to pinpoint what goes wrong and fix them.
+The AI can run the tests while developing to pinpoint what goes wrong and fix it.
 
 This approach helps catch bugs early and ensures your code actually does what you think it does.
 
@@ -128,7 +128,7 @@ This approach helps catch bugs early and ensures your code actually does what yo
 
 For UI-heavy projects, you can prepare a lot of visual aids for the AI, like wireframes, UI designs, or screenshots, so that the AI can generate code that matches what's in your mind.
 
-And when developing, you can generate code, preview the result, then use visual feedback to refine your next prompt. Screenshots can be incredibly powerful context for the AI: "The layout looks good, but the button covers the text. Can you move it up?"
+And when developing, you can generate code, preview the result, and then use visual feedback to refine your next prompt. Screenshots can be incredibly powerful context for the AI: "The layout looks good, but the button covers the text. Can you move it up?"
 
 ### Safe YOLO (Experimentation Branching)
 
@@ -143,3 +143,47 @@ The key insight here is that successful AI-assisted development isn't about find
 It's the same as working with a human developer. You don't just throw a vague idea over the fence and hope they get it right. You have a conversation, define requirements, and then work together to build something great.
 
 When you follow this workflow, you'll find that the AI stays focused, makes fewer mistakes, and builds exactly what you had in mind. Plus, you'll actually understand what you're building instead of just hoping the AI got it right.
+
+## BONUS: Git Basics for AI-Assisted Coding
+
+Throughout this lesson, I've mentioned using Git to save your progress and experiment safely. If you're new to Git, here's a minimal primer to get you started (Tip: You can also ask your AI assistant for these commands):
+
+### Essential Git Commands
+
+**Setting up a new project:**
+```bash
+git init                    # Initialize a new Git repository
+git add .                   # Stage all files for commit
+git commit -m "Initial commit"  # Save your first snapshot
+```
+
+**The basic workflow after each AI task:**
+```bash
+git add .                   # Stage your changes
+git commit -m "Add ingredient search component"  # Save with descriptive message
+```
+
+**Safe experimentation (in Safe YOLO):**
+```bash
+git checkout -b experiment-new-ui  # Create and switch to experimental branch
+# ... let AI generate experimental code ...
+git checkout main           # Switch back to main branch
+git branch -D experiment-new-ui  # Delete experimental branch if not needed
+```
+
+**When things go wrong:**
+```bash
+git status                  # See what files have changed
+git log --oneline          # See your commit history
+git checkout HEAD~1 -- filename.js  # Restore specific file from previous commit
+git reset --hard HEAD~1    # Go back to previous commit (careful - loses changes!)
+```
+
+### Why Git Matters for AI Coding
+
+- **Checkpoint saves**: After each successful AI task, commit your progress. This gives you safe restore points.
+- **Experimentation freedom**: Try wild AI ideas on branches without breaking your working code.
+- **Change tracking**: See exactly what the AI changed in each iteration.
+- **Collaboration**: If working with others, Git keeps everyone's changes organized.
+
+Most AI coding tools integrate with Git automatically, but understanding these basics helps you take control when needed. Don't worry about mastering every Git feature - these commands cover 90% of what you'll need for AI-assisted development.

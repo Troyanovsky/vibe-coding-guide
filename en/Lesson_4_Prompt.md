@@ -4,7 +4,7 @@
 
 ## The Art of AI Conversation
 
-Here's something that might surprise you: **prompting an AI is basically management in disguise.** Think about it – when you're managing a team member, you don't just say "make the website better." You provide context, set clear expectations, define constraints, and guide them toward the outcome you want.
+Here's something that might surprise you: **Prompting an AI is basically management in disguise.** Think about it – when you're managing a team member, you don't just say "make the website better." You provide context, set clear expectations, define constraints, and guide them toward the outcome you want.
 
 (I actually think this lesson is great for not only having conversations with AI but also for collaborating at work. I've seen too many cases of requests without clear context at work.)
 
@@ -28,11 +28,11 @@ The difference? The second prompt eliminates guesswork. Your AI knows exactly wh
 
 This is where that workflow from Lesson 3 really shines. Remember those `requirements.md`, `system_design.md`, and `todo_list.md` files we talked about? They're your secret weapons for providing rich context without overwhelming the AI.
 
-Instead of typing everytime, you can reference these documents: "Based on the requirements in requirements.md, create the user authentication flow described in system_design.md."
+Instead of typing every time, you can reference these documents: "Based on the requirements in requirements.md, create the user authentication flow described in system_design.md."
 
 Context also means being clear about priorities. If you're building a prototype, say so. If performance is critical, mention it. If you need it to work on mobile first, lead with that.
 
-As AI models get more capable, I actually think "prompt engineering" should be renamed as "context engineering", because how you exactly write the prompts matter less, but what context you include in the prompt matters more.
+As AI models get more capable, I actually think "prompt engineering" should be renamed as "context engineering", because how you exactly write the prompts matters less, but what context you include in the prompt matters more.
 
 ### Constraints: Draw the Boundaries
 
@@ -47,7 +47,7 @@ Be explicit about your constraints for the current scoped edit:
 
 ### Desired Output: Be Specific About What You Want
 
-Do you just want an explanation of potential strategy? A plan for implementation? A code snippet/edit? Be explicit.
+Do you just want an explanation of the potential strategy? A plan for implementation? A code snippet/edit? Be explicit.
 
 - "Provide the complete HTML file with inline CSS"
 - "Show me just the JavaScript function, with comments explaining each step"
@@ -112,9 +112,9 @@ For smaller experiments, use temporary files. For bigger architectural decisions
 
 ### Plan Before Action
 
-Earlier, we've mentioned that planning before action is important and we talked about having a system design doc and a to-do list for your project.
+Earlier, we've mentioned that planning before action is important, and we talked about having a system design doc and a to-do list for your project.
 
-This applies to scoped changes too. Ask the AI for a plan before you ask it to write code. 
+This applies to scoped changes, too. Ask the AI for a plan before you ask it to write code. 
 
 "Before writing any code, list the files that need to be created or modified, and the order of implementation."
 
@@ -124,7 +124,7 @@ This gives you a roadmap and helps catch potential issues before you're deep in 
 
 Here's a pro tip: include your key prompts in commit messages or project documentation. Not the entire conversation, but the crucial prompts that led to important architectural decisions or complex implementations.
 
-Future you (or your teammates) will thank you when trying to understand why code was written a certain way. It's like leaving breadcrumbs for debugging and maintenance.
+Future you (or your teammates) will thank you when trying to understand why the code was written a certain way. It's like leaving breadcrumbs for debugging and maintenance.
 
 (This is also what's done by the Cloudflare engineering team when they used Claude to generate their [OAuth 2.1 library](https://github.com/cloudflare/workers-oauth-provider))
 

@@ -18,7 +18,7 @@ Let's look at what separates a terrible frontend prompt from a great one.
 This prompt is basically useless. The AI has to guess everything: What platform? What should it look like? How should the data be displayed? Where does the step count come from? Will this page be connected to other pages? It's like asking a contractor to "build me a room" without any blueprints, specifications, or even telling them what the room is for.
 
 ### Good Prompt Example
-"For iOS, using SwiftUI, I want a pedometer home screen that prominently displays the user's current step count. This count should be large, centered, and updated in real-time. Around the step count, there should be a circular progress bar (like Apple's Activity rings) that visually fills as the user approaches their daily step goal. Below the main display, show the remaining steps to goal, distance walked, and calories burned in smaller, legible text. A bottom navigation bar should provide access to 'History' and 'Settings'. For font, use SF Pro Display and for icons use SF Symbols."
+"For iOS, using SwiftUI, I want a pedometer home screen that prominently displays the user's current step count. This count should be large, centered, and updated in real-time. Around the step count, there should be a circular progress bar (like Apple's Activity rings) that visually fills as the user approaches their daily step goal. Below the main display, show the remaining steps to the goal, distance walked, and calories burned in smaller, legible text. A bottom navigation bar should provide access to 'History' and 'Settings'. For font, use SF Pro Display, and for icons use SF Symbols."
 
 Now *that's* a prompt that gives the AI everything it needs to build something useful.
 
@@ -29,7 +29,7 @@ When crafting frontend prompts, think about these five key areas. You don't need
 ### 1. Foundation (The Tech Stack)
 This is your technical foundation – like choosing the right materials before building a house.
 
-- **Platform**: Are you building for iOS, Android, web, desktop?
+- **Platform**: Are you building for iOS, Android, web, or desktop?
 - **Framework**: SwiftUI for iOS, React/Vue for web, Flutter for cross-platform?
 - **Key Libraries**: Will you use shadcn/ui for React components, Bulma for CSS, or your own design system?
 
@@ -80,10 +80,10 @@ Remember those planning documents we talked about in Lesson 3? Your `requirement
 Don't expect to get everything perfect in one shot. Use live preview (if you're in VSCode or Cursor with the plugin) to see your changes immediately. Start with basic functionality, then refine the design, then add interactions. It's like sculpting – you start with rough shapes and gradually add detail.
 
 ### Try Different Vibes
-The best thing about using AI to code is that it becomes no burden to build multiple versions and pick the best you like. Ask the AI to build different versions and see which one gives the best **vibe**.
+The best thing about using AI to code is that it becomes no burden to build multiple versions and pick the best one you like. Ask the AI to build different versions and see which one gives the best **vibe**.
 
 ### Reference Well-Known Apps
-Instead of trying to describe every detail, you can also reference well known apps. "Like the Instagram story interface" or "Similar to the Spotify now playing screen" gives the AI instant context.
+Instead of trying to describe every detail, you can also reference well-known apps. "Like the Instagram story interface" or "Similar to the Spotify now playing screen" gives the AI instant context.
 
 ### Use Visual Aids
 Screenshots of other apps, your hand-drawn wireframes, or Figma mockups are incredibly helpful. A picture really is worth a thousand words, especially for visual interfaces.

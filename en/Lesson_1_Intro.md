@@ -10,7 +10,7 @@ Let's start with what **Vibe Coding** is. The term was first posted by Andrej Ka
 
 Now here's the thing – pure vibe coding is absolutely magical when it works. You can build things you never thought possible, and it feels like having superpowers (which may be just an illusion). But it can easily get disastrous and frustrating when you want to build something bigger or more complex. You hit a wall, the AI starts making weird mistakes, and you have absolutely no idea what's going on and how to fix. **You're stuck.**
 
-That's why I want this course to both approaches, but with a focus on making your code **more robust and reliable**. I don't want to see people try vibe coding, get stuck, and then rage quit thinking "AI can't do meaningful things." Because it absolutely can – you just need to know how to work with it. (I'm optimistic about AI, but I try to keep myself realistic.)
+That's why I want this course to cover both approaches, but with a focus on making your code **more robust and reliable**. I don't want to see people try vibe coding, get stuck, and then rage quit, thinking "AI can't do meaningful things." Because it absolutely can – you just need to know how to work with it. (I'm optimistic about AI, but I try to keep myself realistic.)
 
 AI extends your ability, not replaces you. Think of it as a collaborative process between you and the AI, but you're still the driver. You're making the decisions about what to build and how it should work. Don't give in to it. You should be **in control**.
 
@@ -26,7 +26,7 @@ You can also use AI coding for **quick technical feasibility checks**. I needed 
 
 **Getting small technical roadblocks out of the way** is another huge benefit. If you just need to change text copy, A/B test two simple pages for conversion, or make quick tweaks, you don't need to wait for dev resources. You can just do it yourself.
 
-Plus, you'll **gradually learn programming concepts** while vibe coding, which helps you communicate better with developers and design better products overall. Of course, you need to reflect and learn ablong the way, instead of purely outsourcing your brain to AI.
+Plus, you'll **gradually learn programming concepts** while vibe coding, which helps you communicate better with developers and design better products overall. Of course, you need to reflect and learn along the way, instead of purely outsourcing your brain to AI.
 
 ## What to expect about AI coding
 
@@ -40,10 +40,10 @@ Another important note: be sure to check the policies of any AI tool you use. Lo
 
 ## Quick Preview of the Course
 
-We're going to cover a lot of things together. You'll learn about the AI coding tools available right now and I'll make my personal recomnedations of when to use which one. I'll show you a workflow for producing reliable code and apps with AI, along with prompting skills that get you higher quality output.
+We're going to cover a lot of things together. You'll learn about the AI coding tools available right now, and I'll make my personal recommendations of when to use which one. I'll show you a workflow for producing reliable code and apps with AI, along with prompting skills that get you higher-quality output.
 
 There will also be a very brief primer of basic programming concepts that help you communicate better with both AI and developers. You'll see example prompts for frontend and backend development, learn how to build your own reusable library for AI coding tools, and learn testing and debugging with AI.
 
-By the end of this course, you'll have all the pro-tips and strategies you need to build real, working products with AI – not just throwaway weekend toy projects, but stuff that actually matters for your work and ideas.
+By the end of this course, you'll have all the pro-tips and strategies you need to build real, working products with AI - not just throwaway weekend toy projects, but stuff that actually matters for your work and ideas.
 
 Ready to dive in? Let's start building.

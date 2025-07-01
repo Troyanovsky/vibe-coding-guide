@@ -13,7 +13,7 @@ The same applies to working with AI coders. When you understand the basic buildi
 - Understand what the AI is actually building for you
 - Make smarter decisions about what to change or improve
 
-Let's dive into the some basic but fundamental concepts that'll make your AI collaboration much more effective.
+Let's dive into some basic but fundamental concepts that'll make your AI collaboration much more effective.
 
 ## What is Code?
 
@@ -29,10 +29,10 @@ One of the most important concepts to understand is the difference between **fro
 This is everything your users see and interact with – the dining room, the menu, the waiter taking your order. In the digital world (and using web apps as an example), this includes:
 
 **HTML: The Structure (The Nouns)**
-HTML is like the blueprint of a building. It defines what elements exist on a page – headings, paragraphs, buttons, images. It's the skeleton that everything else builds on.
+HTML is like the blueprint of a building. It defines what elements exist on a page – headings, paragraphs, buttons, and images. It's the skeleton that everything else builds on.
 
 **CSS: The Styling (The Adjectives)**
-CSS is your interior designer. It makes things look good – colors, fonts, spacing, animations. There are different approaches here:
+CSS is your interior designer. It makes things look good – colors, fonts, spacing, and animations. There are different approaches here:
 - **Vanilla CSS**: Writing styles from scratch (like custom interior design)
 - **Utility-first frameworks like Tailwind CSS**: Using pre-built style components (like shopping at IKEA)
 
@@ -43,7 +43,7 @@ JavaScript makes things interactive and dynamic. It's what happens when you clic
 Not everything lives in a web browser. Mobile apps use technologies like SwiftUI (iOS) or Flutter (cross-platform), but they follow similar concepts – structure, styling, and behavior. It's often a good idea to keep them separate. That's why you may see AI creating controller files for behavior/logic and view files for structure and styling.
 
 ### Backend: The "Warehouse & Office"
-This is everything happening behind the scenes – the kitchen, the inventory system, the accounting department. It's where most of your business logic and data is. Users never see it directly, but it's essential:
+This is everything happening behind the scenes – the kitchen, the inventory system, the accounting department. It's where most of your business logic and data are. Users never see it directly, but it's essential:
 
 **Databases: The Filing Cabinets**
 This is where all your information lives – user accounts, product data, transaction records. There are two main types:
@@ -54,7 +54,7 @@ This is where all your information lives – user accounts, product data, transa
 This processes requests, manages data, and enforces business rules. Popular combinations include Node.js with Express (JavaScript on the server) or Python with Django. It's like having a very efficient office manager who handles all the behind-the-scenes work.
 
 **Cloud Functions/Serverless: Renting Specific Services**
-Instead of managing entire servers, you can rent specific functions – like hiring a catering company instead of building your own kitchen. The cloud provider handles the infrastructure; you just focus on the logic.
+Instead of managing entire servers, you can rent specific functions, like hiring a catering company instead of building your own kitchen. The cloud provider handles the infrastructure; you just focus on the logic.
 
 ## APIs: The Messenger Service
 
@@ -78,7 +78,7 @@ This approach is especially powerful with AI because:
 - You can test changes in isolation
 - You can reuse components across different projects
 
-In our previous lessons, I have covered rules for AI and workflow that asks AI architect to provide modular design with **separation of conce**rns. So if you use my prompts, your AI-generated code will not be a mess.
+In our previous lessons, I have covered rules for AI and workflow that ask the AI architect to provide a modular design with **separation of concerns**. So if you use my prompts, your AI-generated code will not be a mess.
 
 ## What's Next?
 
