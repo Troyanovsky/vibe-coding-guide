@@ -59,6 +59,12 @@ I want to help address all of these issues. This guide is designed to help anyon
 - This lesson teaches you how to write effective prompts for developing frontend (focusing on UI and UX) with AI coding tools, including analysis of a good prompt and tips for prompting.
 - This lesson is useful if you need to develop UI for your app.
 
+### Lesson 7: Backend Prompting
+[Link to Lesson 7](en/Lesson_7_Backend_Prompt.md)
+
+- This is a lesson on writing effective prompts for developing backend (focusing on data and logic) with AI.
+- If you don't want to make a brittle app that breaks easily or leaks secrets, you should read this lesson.
+
 ## Disclosure About the Use of AI
 I gather info and design the curriculum of this course. I wanted to share everything I learned along the way that I worked with AI coders in my own experience. For everything lesson, I write the main ideas & first drafts, but I rely on AI for fixing grammar mistakes & typos, and making edits to make this read better. So some sentences may read like AI to you, but the ideas were by myself.
 

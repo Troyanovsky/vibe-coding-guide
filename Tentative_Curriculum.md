@@ -2,62 +2,6 @@
 
 The following curriculum structure for the rest of the lessons is tentative and subject to change. I will update it as I write the actual lessons.
 
-**Module 6: Frontend Prompt Mastery: UI & User Experience**
-*   **6.1. Goal:** Create a responsive product card.
-*   **6.2. Vague Prompt:** "Make a product card."
-    *   *Problem:* AI lacks details on content, style, or responsiveness.
-*   **6.3. Effective Prompt:**
-    ```
-    Generate HTML and Tailwind CSS for a responsive product card.
-    It should include:
-    1. An image placeholder (16:9 aspect ratio).
-    2. Product Name (h3 tag).
-    3. Product Price (e.g., $19.99).
-    4. A short description (paragraph).
-    5. An "Add to Cart" button (primary color style).
-    Make the card have a light shadow and rounded corners.
-    On screens smaller than 'sm' (Tailwind breakpoint), the image should be full-width above the text content. On 'sm' screens and larger, the image should be on the left (taking 1/3 width) and text content on the right (taking 2/3 width).
-    ```
-*   **6.4. Why It's Effective:**
-    *   **Clear Structure:** Explicitly lists elements and their types (e.g., `h3`).
-    *   **Specific Styling Cues:** "Tailwind CSS," "light shadow," "rounded corners," "primary color style."
-    *   **Responsive Behavior Defined:** Details for different screen sizes and layout changes.
-    *   **Actionable Details:** "16:9 aspect ratio," "$19.99" example implies data format.
-*   **6.5. Additional Frontend Prompting Patterns:**
-    *   Form validation and user feedback
-    *   Animation and micro-interactions
-    *   Component state management
-    *   Accessibility considerations
-
-**Module 7: Backend Prompt Mastery: Data & Logic**
-*   **7.1. Goal:** Create a simple API endpoint to serve mock data.
-*   **7.2. Vague Prompt:** "I need user data."
-    *   *Problem:* No context on format, technology, or how data is accessed.
-*   **7.3. Effective Prompt:**
-    ```
-    Create a simple Node.js Express API endpoint.
-    The endpoint should be at the path '/api/products'.
-    When a GET request is made to this endpoint, it should return a JSON array of 3 mock product objects.
-    Each product object must have the following properties:
-    - id (integer, unique)
-    - name (string)
-    - price (number, e.g., 29.99)
-    - imageUrl (string, use a placeholder like https://via.placeholder.com/300)
-    Do not use any external database; the data should be hardcoded in an array within the server file.
-    Provide the complete server.js file.
-    ```
-*   **7.4. Why It's Effective:**
-    *   **Technology & Framework:** "Node.js Express."
-    *   **Endpoint Details:** Path (`/api/products`) and HTTP method (`GET`).
-    *   **Data Structure & Content:** "JSON array," "3 mock product objects," specific properties and their types (`id`, `name`, `price`, `imageUrl`).
-    *   **Constraints:** "No external database," "hardcoded in an array."
-    *   **Desired Output:** "complete server.js file."
-*   **7.5. Additional Backend Prompting Patterns:**
-    *   Database operations and data modeling
-    *   Authentication and authorization
-    *   Error handling and validation
-    *   Integration with external APIs
-
 **Module 8: Designing for AI: Building Your Reusable Asset Library**
 *   **8.1. Why Reusable Assets Supercharge AI Assistance:**
     *   Ensures consistency in UI/UX across your prototype.
