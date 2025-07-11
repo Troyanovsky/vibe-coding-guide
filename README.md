@@ -65,6 +65,12 @@ I want to help address all of these issues. This guide is designed to help anyon
 - This is a lesson on writing effective prompts for developing backend (focusing on data and logic) with AI.
 - If you don't want to make a brittle app that breaks easily or leaks secrets, you should read this lesson.
 
+### Lesson 8: Reusable Components
+[Link to Lesson 8](en/Lesson_8_Reusable_Components.md)
+
+- This is a more advanced lesson that improves your quality of life when coding with AI by simplifying reusable component creation.
+- Using reusable components as gold standards can also make your AI-generated code more consistent and adhere to your code quality/style better.
+
 ## Disclosure About the Use of AI
 I gather info and design the curriculum of this course. I wanted to share everything I learned along the way that I worked with AI coders in my own experience. For everything lesson, I write the main ideas & first drafts, but I rely on AI for fixing grammar mistakes & typos, and making edits to make this read better. So some sentences may read like AI to you, but the ideas were by myself.
 

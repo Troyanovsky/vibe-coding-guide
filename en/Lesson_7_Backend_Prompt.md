@@ -32,7 +32,7 @@ It's like asking a chef to "make a dish" without telling them what ingredients a
 
 The AI now knows exactly what to build and where to find the specifications. No guesswork required.
 
-## The Five Pillars of Great Backend Prompts
+## The Pillars of Great Backend Prompts
 
 Every great backend prompt should address these five core areas. Think of them as the essential blueprints your AI engineer needs to build a solid system.
 
@@ -90,7 +90,7 @@ This is about protecting your application and making sure it performs well under
 - **Error Handling:** What happens when things go wrong? (Define specific error messages for missing fields, invalid data, unauthorized access; implement comprehensive logging)
 - **Performance Considerations:** Are there specific performance requirements? (e.g., "Ensure `user_id` column in `recipes` table is indexed for efficient lookups")
 
-**Common Pitfalls for Vibe Coders:** Here's something crucial – many beginner "vibe coders" accidentally push private API keys to public repositories or forget to implement rate limiting, leading to unexpected costs and security breaches. If you want to avoid these issues, you **must** explicitly include requirements for secure credential management (using environment variables) and rate limiting in your AI prompts.
+**Common Pitfalls for Vibe Coders:** Here's something crucial – many beginner "vibe coders" neglect security and may accidentally push private API keys to public repositories or forget to implement rate limiting, leading to unexpected costs and security breaches. If you want to avoid these issues, you **must** explicitly include requirements for secure credential management (using environment variables) and rate limiting in your AI prompts.
 
 **Why it matters:** A backend that's insecure or slow is a failed backend, regardless of how elegantly the business logic is written. Security and performance aren't optional – they're fundamental requirements.
 
@@ -115,9 +115,9 @@ Before you start prompting for backend code, go back to your `system_design.md` 
 
 Here are some battle-tested techniques that will make your backend prompting much more effective:
 
-**Security & Cost Prevention:** Beyond just API keys, always prompt the AI to use environment variables for *all* sensitive credentials – database connection strings, JWT secret keys, third-party API keys, everything. Also, explicitly request rate limiting on public-facing endpoints to prevent abuse and manage costs. Trust me, you don't want to wake up to a $500 cloud bill because someone found your API and decided to hammer it.
+**Security & Cost Prevention:** Beyond just API keys, always prompt the AI to use environment variables for *all* sensitive credentials – database connection strings, JWT secret keys, third-party API keys, everything. Also, explicitly request rate limiting on public-facing endpoints to prevent abuse and manage costs. Trust me, you don't want to wake up to a $500 cloud bill because someone found your API and decided to abuse it.
 
-**Consistent Error Responses:** Request the AI to implement standardized JSON error responses across all endpoints. Something like `{ "status": "error", "message": "Invalid input", "code": 400 }`. This makes debugging from the frontend much simpler and creates a predictable experience for anyone using your API.
+**Consistent Error Responses:** Ask the AI to implement standardized JSON error responses across all endpoints. Something like `{ "status": "error", "message": "Invalid input", "code": 400 }`. This makes debugging from the frontend much simpler (when things go wrong, you can paste this error message to have AI debug for you) and creates a predictable experience for anyone using your API.
 
 **Logging is Your Friend:** Always ask the AI to include basic logging for critical actions, errors, and incoming requests. When something breaks in production (and it will), good logs are often the difference between fixing an issue in minutes versus hours of detective work.
 
@@ -125,11 +125,11 @@ Here are some battle-tested techniques that will make your backend prompting muc
 
 **Database Migrations (for Relational DBs):** If you're using a relational database like PostgreSQL or MySQL, prompt the AI to create database migration scripts. This is crucial for managing changes to your database schema over time in a controlled, reversible way. It's like version control for your database structure.
 
-**Prompt for Tests:** Here's a huge advantage of using AI – it's excellent at generating tests. After creating an endpoint, follow up with something like: "Now, write a comprehensive set of unit tests for this recipe saving endpoint using Jest and Supertest. Include tests for successful saves, validation errors, authentication failures, and edge cases."
+**Prompt for Tests:** Here's a huge advantage of using AI – it's excellent at generating tests. After creating an endpoint, follow up with something like: "Now, write a comprehensive set of unit tests for this recipe saving endpoint using Jest and Supertest. Include tests for successful saves, validation errors, authentication failures, and edge cases." (Or you may use test-driven development, as described in Lesson 3 where you start with tests.)
 
-**Focus on Single Responsibility:** Prompt for one endpoint or one piece of functionality at a time. This keeps the AI focused and produces cleaner, more modular code. It's much easier to debug and iterate on a single, well-defined piece than a massive chunk of interconnected functionality.
+**Focus on Single Responsibility:** Prompt for one endpoint or one piece of functionality at a time. This keeps the AI focused and produces cleaner, more modular code. For each file, it's better to have it focus on one thing. It's much easier to debug and iterate on a single, well-defined piece than a massive chunk of interconnected functionality.
 
-**Specify Third-Party Libraries:** If you want to use specific libraries for certain tasks, mention them directly in your prompt. For example, "`jsonwebtoken` for JWT handling," "`pg` for PostgreSQL interactions," or "`express-rate-limit` for rate limiting." This prevents the AI from choosing random alternatives that might not fit your needs.
+**Specify Third-Party Libraries:** If you want to use specific libraries for certain tasks, mention them directly in your prompt. For example, "`jsonwebtoken` for JWT handling," "`pg` for PostgreSQL interactions," or "`express-rate-limit` for rate limiting." This prevents the AI from choosing random alternatives that might not fit your needs. (Using context7 MCP server can provide up-to-date library documentation to AI for accurate usage.)
 
 **Iterate with a REST Client:** Use tools like Postman, Insomnia, or a VSCode extension to test the API endpoints the AI generates. This gives you immediate feedback and helps you craft better follow-up prompts. There's nothing like seeing actual HTTP requests and responses to understand what's working and what needs adjustment.
 
@@ -140,5 +140,3 @@ Here's the core principle: backend prompting is about being the architect. You p
 The goal is to be precise about the logic, data structures, and rules so the AI can build a robust, secure, and scalable engine for your application. When you get this right, you'll have a backend that not only works reliably but can also grow and evolve with your application's needs.
 
 Remember – the backend is invisible to your users, but it's the foundation that makes everything else possible. Invest the time to prompt for it properly, and you'll save yourself countless hours of debugging, security issues, and performance problems down the road.
-
-So now you're equipped with the knowledge to prompt for both frontend experiences and backend systems. In our next lesson, we'll explore some advanced techniques that can take your AI-assisted coding to the next level, including how to handle complex integrations and optimize your development workflow even further.
