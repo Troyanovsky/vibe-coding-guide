@@ -1,16 +1,16 @@
 # Lesson 8: Creating Reusable Components for AI
 
-## Why Reusable Assets Supercharge AI-Assisted Coding
+## Why You Need Reusable Components
 
 Here's the thing about working with AI on bigger projects – you'll start noticing patterns. You'll find yourself describing the same button style over and over, explaining the same color scheme repeatedly, or walking the AI through your preferred card layout for the hundredth time. Sound familiar?
 
-This is where reusable components become your best friend. Think of them as your personal design system that you can feed to the AI, making your vibe coding sessions way more efficient and consistent.
+This is where reusable components become your best friend. Think of them as your personal design/code system that you can feed to the AI, making your vibe coding sessions way more efficient and consistent.
 
 **Reusable components supercharge your AI workflow in several key ways:**
 
 They ensure rock-solid consistency across your entire prototype. No more getting slightly different button styles every time you ask the AI to add a new feature. Your UI stays cohesive, just like when you're working with traditional design systems in tools like Figma.
 
-They massively speed up development by cutting down on repetitive prompting. Instead of describing your input field styling from scratch every single time, you just reference your template. The AI knows exactly what you want.
+They massively speed up development by cutting down on repetitive prompting. Instead of describing your input field styling from scratch every single time, you just reference your template file. The AI knows exactly what you want.
 
 They act as a "mini style guide" for your AI assistant. When you have well-defined components, the AI's output becomes way more predictable. It's like giving your AI collaborator a clear brief about your project's visual language.
 
@@ -22,7 +22,7 @@ Now, let's talk about actually creating these reusable components. I'll show you
 
 ### Option 1: Starting with Design Tools (Perfect for Designers)
 
-If you're already comfortable with Figma, this is your golden path. Start by creating your design system in Figma – use either your existing design system or grab one from the Figma community that matches your vibe.
+If you're already comfortable with design tools like Figma, this is your golden path. Start by creating your design system in Figma – use either your existing design system or grab one from the Figma community that matches your vibe.
 
 Here's what you want to collect:
 - Common layout patterns (headers, sidebars, content areas)
@@ -31,7 +31,7 @@ Here's what you want to collect:
 - Modal dialogs and alert messages
 - Typography scales and spacing tokens
 
-The magic happens when you use Figma's dev mode. Export the code for each component and save them as template files. For example, if you're working with Vue, you'd save them as `input_form_template.vue`, `button_template.vue`, etc.
+The magic happens when you use Figma's dev mode. Export the code for each component and save them as template files. For example, if you're working with Vue, you'd save them as `input_form_template.vue`, `button_template.vue`, etc. in a template folder.
 
 This approach gives you pixel-perfect components that maintain your design integrity while being ready for AI consumption.
 
@@ -92,7 +92,7 @@ Now comes the crucial part – actually using these components effectively with 
 
 **In tools like Cursor**, you can directly reference your template files using the `@` symbol. For example, `@input_form_template.vue` will give the AI immediate access to your input form component structure.
 
-**Create a "Project Style Guide"** document (I recommend a markdown file) that acts as your component catalog. This file should include:
+**Create a "Project Style Guide"** document (I recommend a markdown file, just like the `requirements.md` file we talked about) that acts as your component catalog. This file should include:
 - When to use which template
 - Code snippets for common patterns
 - General style heuristics and preferences

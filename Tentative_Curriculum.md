@@ -2,57 +2,6 @@
 
 The following curriculum structure for the rest of the lessons is tentative and subject to change. I will update it as I write the actual lessons.
 
-**Lesson 8: Reusable Components**
-*   **Why Reusable Assets Supercharge AI-assisted coding/vibe coding**
-    *   Ensures consistency in UI/UX across your prototype.
-    *   Fosters visual consistency and cohesion across your project, just as with traditional design systems. [reference](https://www.figma.com/blog/8-ways-to-build-with-figma-make/)
-    *   Speeds up development by reducing repetitive prompting details in text.
-    *   Acts as a "mini style guide" for the AI, leading to more predictable output.
-    *   Empowers you to define core elements once and reuse them.
-*   **Designing AI-Consumable UI Components:**
-    *   Option 1: Starting with design tools
-        *   Ideal for designers. Start your design in Figma. Use your own design system or a community design system.
-        *   Arrange commonly used components, like common layout, styled buttons, form input groups, modals, alert messages, font, spacing, etc.
-        *   Use Figma's dev mode, export the code, and save to files like `input_form_template.vue` (just an example if you're using Vue)
-    *   Option 2: Starting with vibe code
-        *   Ideal for non-designers who are not familiar with Figma.
-        *   Find references of the app that's similar to yours. Feed the screenshot to AI, ask it to replicate.
-        *   Preview the result and iteratively prompt the AI to make it exactly how you like it. Save to files as a template.
-        *   Example prompt:
-```
-Help me build a Vue component library based on the attached screenshot, using Vue 3 and Tailwind CSS. Follow the steps below:
-
-1. Analyze the screenshot and identify distinct UI elements, such as:
-- Buttons
-- Input fields
-- Navbars
-- Cards
-- Modals
-- Typography
-
-2. For each component:
-- Create a Vue single-file component (.vue)
-- Style using Tailwind CSS, matching the screenshot as closely as possible
-- Ensure responsiveness and accessibility
-- Add props for flexibility
-- Include a brief comment explaining the component
-
-3. Save all components in the templates/ folder.
-
-4. Create an index page that imports and displays each component with example usage.
-
-Note: Use only custom-made components and Tailwind CSS. Do not use external UI libraries. Prioritize reusability and clean structure.
-```
-    *   Option 3 (Bonus): Copy from others
-        *   Use "HTML to React & Figma by Magic Patterns" chrome extension. best for web apps.
-        *   Open up a webpage, activate the plugin, select a component, and it will extract it into a React component with the style you need.
-        *   Feed the code to AI to convert to the language you're using in your project. Save as template.
-*   **Making Reusable non-UI Components:**
-    *   Similarly, you can create templates/best practices of non-UI components.
-*   **How to Feed Your Assets & Context to the AI:**
-    *   In tools like Cursor, you can directly reference files (`@input_form_template.vue`).
-    *   Creating a simple "Project Style Guide" document (markdown file) with component descriptions and telling the AI to refer to it. This file can include when to refer to which template file or snippets in this file or general style heuristics. [reference](https://www.anthropic.com/engineering/claude-code-best-practices)
-
 
 **Module 9: Testing, Debugging, and Quality Checks with AI**
 *   *Crucial for ensuring AI output is functional and as expected.*
