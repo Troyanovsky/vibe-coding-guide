@@ -1,5 +1,8 @@
 # Lesson 8: Creating Reusable Components for AI
 
+[Share on Facebook](https://www.facebook.com/sharer/sharer.php?u=https%3A//github.com/Troyanovsky/vibe-coding-guide/blob/main/en/Lesson_8_Reusable_Components.md) | [Share on Twitter](https://twitter.com/intent/tweet?text=https%3A//github.com/Troyanovsky/vibe-coding-guide/blob/main/en/Lesson_8_Reusable_Components.md) | [Share on LinkedIn](https://www.linkedin.com/shareArticle?mini=true&url=https%3A//twitter.com/intent/tweet?text=https%253A//github.com/Troyanovsky/vibe-coding-guide/blob/main/en/Lesson_8_Reusable_Components.md)
+
+
 ## Why You Need Reusable Components
 
 Here's the thing about working with AI on bigger projects – you'll start noticing patterns. You'll find yourself describing the same button style over and over, explaining the same color scheme repeatedly, or walking the AI through your preferred card layout for the hundredth time. Sound familiar?
