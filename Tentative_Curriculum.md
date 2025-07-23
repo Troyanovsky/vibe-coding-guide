@@ -236,7 +236,7 @@ The following curriculum structure for the rest of the lessons is tentative and 
     *   When designing tasks for AI, consider if they can be broken down into parallelizable units to improve efficiency, especially in multi-agent or multi-checkout environments. [reference](https://lucumr.pocoo.org/2025/6/12/agentic-coding/)
     *   For complex projects or parallel exploration, consider having multiple local checkouts (clones) of your repository to allow different AI conversations or experiments to run concurrently without interfering with each other. [reference](https://www.anthropic.com/engineering/claude-code-best-practices)
 *   **10.3. Basic Project Organization:**
-    *   Simple file/folder structure (e.g., `index.html`, `css/style.css`, `js/script.js`, `images/`).
+    *   Simple module-based file/folder structure (great for separation of concerns and providing AI with specific context of where it broke).
     *   Keeping reusable components/snippets organized.
 *   **10.4. Advanced Tip: Maximizing Request-Based Tools with User Input Utilities:**
     *   **The Challenge:** When using chat-based AI tools (ChatGPT, Claude), you often need to manually copy/paste code snippets, error messages, or file contents back and forth.
