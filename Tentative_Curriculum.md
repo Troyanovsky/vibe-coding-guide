@@ -191,32 +191,49 @@ The following curriculum structure for the rest of the lessons is tentative and 
     *   AI understands your project's visual language, code structure, and quality standards.
     *   Results in faster development, consistent output, and easier maintenance.
 
-**Module 9: Testing, Debugging, and Quality Checks with AI**
-*   *Crucial for ensuring AI output is functional and as expected.*
-*   **9.1. Basic Testing Your Prototype:**
-    *   Manual Testing: Does it look right? Does it work as expected on different screen sizes (if responsive)? Click all buttons, fill forms.
-    *   Use browser developer tools (Inspect Element) for simple visual checks and error spotting.
-*   **9.2. Debugging with Your AI Assistant:**
-    *   Understanding (basic) error messages: What does "undefined" or "syntax error" generally mean?
-    *   **Prompting for Debugging:**
-        *   "I'm getting this error in the console: `[paste error message]`. Here's the relevant code: `[paste code snippet]`. Can you help me find the issue?"
-        *   "When I click the 'Submit' button, nothing happens. Here's the HTML for the button and the JavaScript function it's supposed to call. What could be wrong?"
-    *   Asking AI to explain code or errors: "Explain this line of JavaScript," "Why am I getting this 'TypeError'?"
-*   **9.3. Defining Tests with AI:**
-    *   While human-written tests are preferred for production code, you can use AI to *help* define tests for your prototype.
-    *   Articulate your expectations and specific test cases in natural language to the AI.
-    *   **Prompting for Tests:** "I have a form with an email input field and a submit button. I want to test that an error message appears if the email is invalid when I click submit. Describe the steps to manually test this." or "Based on the requirements for the product card, what are some key things I should test to ensure it's working correctly?"
-    *   You can also ask the AI to generate simple test code snippets if you're comfortable using a testing framework (though this is more advanced). Clearly define the expected input and output.
-*   **9.4. Basic Code Quality & Review (with AI help):**
-    *   Awareness: AI code can sometimes be verbose, inefficient, or have minor security oversights.
-    *   Asking AI: "Can you review this code for clarity?" "Are there any obvious performance issues here?" "Suggest improvements to make this JavaScript more readable." (Set realistic expectations).
-    *   Ask the AI to generate simple, maintainable code, prioritizing functions over complex class hierarchies or deep inheritance when possible. [reference](https://lucumr.pocoo.org/2025/6/12/agentic-coding/)
-    *   Ask the AI to refactor existing code for improved readability, maintainability, or efficiency.
-    *   **Peer Review with AI (Advanced):** In workflows with multiple AI instances, consider using one AI agent to generate code and another to perform a review or verification pass on the generated code. [reference](https://www.anthropic.com/engineering/claude-code-best-practices)
-*   **9.5. Automated PR Review with AI Tools:**
-    *   Some advanced AI coding tools (like Cursor, or potentially future integrations with tools like GitHub Copilot or specialized code review AI) can assist in reviewing Pull Requests.
-    *   These tools can highlight potential bugs, suggest improvements, check for style consistency, and identify security vulnerabilities *based on the context of the code change*.
-    *   **Note:** This is a more advanced use case typically found in collaborative engineering environments. It's an emerging area of AI in coding workflows.
+## Lesson 9: Testing, Debugging, and Quality Checks with AI
+
+*   **Why Testing and Quality Checks Matter:**
+    *   AI-generated code is powerful but often prone to subtle bugs, inefficiencies, and unexpected behavior.
+    *   Testing acts as a safety net, ensuring your application works as expected and looks good.
+    *   Debugging with AI provides a constant coding mentor to resolve issues.
+*   **Testing Your Prototype:**
+    *   **Manual Testing:**
+        *   Human interaction: Check layout, colors, fonts, spacing, and responsiveness across devices.
+        *   Interact with every element: Click buttons, fill forms, navigate flows.
+        *   Actively try to "break" the app by submitting empty forms, double-clicking, or entering invalid data.
+    *   **Browser Developer Tools:**
+        *   Utilize Console (JavaScript errors), Network (API failures), Elements (inspect HTML/CSS), and Responsive design mode.
+        *   Copy red error messages to your AI assistant for help.
+    *   **Automated Testing with AI:**
+        *   Prompt AI to generate automated end-to-end testing scripts (e.g., Playwright) for repetitive workflows, such as login form validation.
+*   **Debugging with Your AI Assistant:**
+    *   **Understanding Basic Error Messages:**
+        *   `"undefined"`: Variable doesn't exist or isn't set.
+        *   `"Syntax error"`: Typo or structural problem in code.
+        *   `"TypeError"`: Operation attempted on an incompatible data type.
+        *   `"404 Not Found"`: Missing file or API endpoint.
+    *   **Effective Debugging Prompts:**
+        *   Provide the exact error message from the console.
+        *   Include relevant code snippets and file references.
+        *   Clearly describe the expected behavior versus what actually happened.
+        *   Ask AI to explain specific lines of code or investigate specific issues.
+*   **Defining Tests with AI:**
+    *   **Manual Test Planning:** Ask AI to describe step-by-step manual testing instructions, including different user flows and edge cases based on requirements.
+    *   **Test Case Generation:** Prompt AI to generate comprehensive test cases for specific features or user flows (e.g., happy path, error cases, edge cases, boundary conditions).
+    *   **Automated Test Code:** Request AI to generate unit tests (e.g., Jest) for functions, clearly defining expected inputs and outputs.
+*   **Basic Code Quality & Review:**
+    *   **Common AI Code Issues:** Verbosity, inefficiency, security oversights, and inconsistent coding patterns.
+    *   **Quality Review Prompts:**
+        *   Ask AI to review code for clarity, readability, adherence to principles like DRY/KISS, performance, simplification, and maintainability.
+    *   **Peer Review with AI:** Use multiple AI agents or fresh conversations with the same AI to perform multi-pass code reviews for more robust issue detection.
+*   **Advanced: Automated PR Review:**
+    *   **AI-Powered Code Review Tools:** Utilize tools like GitHub Copilot, Cursor, or specialized AI review platforms (e.g., CodeRabbit).
+    *   **Setting Up Automated Review:** AI can help create checklists for Pull Request reviews and analyze code diffs for potential bugs, performance issues, style consistency, and security vulnerabilities.
+*   **Making It All Work Together:**
+    *   Combine manual testing, AI-assisted debugging, and quality reviews to build confidence in your prototypes.
+    *   Start with basic techniques and gradually incorporate more sophisticated methods.
+    *   Leverage your AI assistant by providing context and asking precise questions for effective problem-solving.
 
 **Module 10: Pro Tips for AI-Assisted Coding**
 *   **10.1. Version Control with Git (Conceptual Introduction):**
