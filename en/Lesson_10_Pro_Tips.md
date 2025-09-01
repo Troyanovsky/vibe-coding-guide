@@ -107,7 +107,7 @@ This approach is especially useful for testing third-party APIs, new frameworks,
 
 ### Advanced: Parallel Development with Multiple Checkouts
 
-Here's a more advanced technique for when you're working on complex projects: maintain multiple local copies (clones) of your repository. This allows you to run different AI conversations or experiments simultaneously without them interfering with each other.
+Here's a more advanced technique for when you're working on complex projects: maintain multiple local copies (clones) of your repository. This allows you to run different AI conversations or experiments simultaneously without them interfering with each other. This approach is used by the [Anthropic Engineering Team](https://www.anthropic.com/engineering/claude-code-best-practices)
 
 For instance, you might have:
 - `project-main/` - Your stable, working version
@@ -140,7 +140,7 @@ This modular approach has huge benefits when working with AI:
 
 - **Focused context:** You can reference specific folders when prompting ("update just the components folder")
 - **Easier debugging:** When something breaks, you know exactly where to look
-- **Better collaboration:** The AI understands your project structure and can work within it
+- **Better collaboration:** For modules with little inter-dependency, it's possible to have multiple-agents to work in parallel efficiently. [reference](https://lucumr.pocoo.org/2025/6/12/agentic-coding/)
 
 ### Keep Reusable Components Organized
 
@@ -160,7 +160,7 @@ components/
 
 ## The "Slot Machine" Approach
 
-Let's talk about a completely different philosophy that some teams use when they have unlimited access to AI agents. It's controversial, but worth understanding.
+Let's talk about a completely different philosophy that some teams use when they have unlimited access to AI agents. It's controversial, but worth understanding. [Ref 1](https://monadical.com/posts/vibe-code-how-to-stay-in-control.html) [Ref 2](https://www-cdn.anthropic.com/58284b19e702b49db9302d5b6f135ad8871e7658.pdf)
 
 The traditional approach is: AI generates code → you debug and fix issues → you refine and improve → you commit when it works.
 
