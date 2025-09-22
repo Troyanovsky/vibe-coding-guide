@@ -48,7 +48,11 @@ Claude Code is like having an AI pair programmer who never gets tired. It can ed
 
 Google also released their version of CLI tool, called [Gemini Cli](https://github.com/google-gemini/gemini-cli). The tool itself is open-sourced on GitHub and uses Gemini 2.5 Pro as the underlying model. What is good about it is that they offer generous free usage, 60 requests per minute and 1000 per day. But it's less polished compared to Claude Code at the moment.
 
+OpenAI recently also released their own CLI tool Codex. They even released a fine-tuned version of GPT5 specifically for coding. For many people, they claim to have better experience than Claude Code now.
+
 Aider takes a similar approach but supports multiple AI models from other providers. They even have [a leaderboard](https://aider.chat/docs/leaderboards/) to compare different models for coding.
+
+Many other model providers are also developing their own CLI tools, like Qwen's Qwen Code. And they often have generous free tier for you to try them out.
 
 The beauty of CLI tools is that they work with your existing workflow. You don't need to learn a new interface -- just chat with AI right in your terminal.
 
@@ -63,6 +67,7 @@ Here's how I'd think about choosing your tools:
 **Move to CLI tools or editors** when you're ready to implement and iterate seriously. These tools understand context better and can handle the complexity of real projects.
 
 For most people, I'd recommend starting with **Cursor** as your main development environment (they have free trials, and you can use free models like Gemini 2.5 Flash for simpler projects). It hits the sweet spot of being approachable for beginners while still being powerful enough for experienced developers. Plus, the learning curve is gentle if you're already familiar with VSCode.
+(Also I do not recommend you get their paid premium plans anymore because of their history of changing plan benefits/pricing. You can still use their free trial to get started with vibe coding before migrating to other tools.)
 
 ## Setting Up Your New Coding Environment
 
@@ -97,6 +102,8 @@ We'll dive deeper into MCP in later lessons, but for now, just know that it's a 
 ### Rules for AI: Teaching Your Assistant
 
 Another very important setup that some may overlook is: **Rules for AI**. In Cursor, this is a file called `.cursor/rules`. (In Claude Code, it's called `CLAUDE.md` and similar for other tools.) Think of it as an instruction manual for how you want the AI to behave. Some tools may have more fine-grained project-level rules that you can set up.
+
+(Many companies are pushing for the adoption of [`AGENTS.md`](https://agents.md/), which attempts to unify the rules for AI and many AI coding tools are starting to support this format.)
 
 You can specify coding styles, preferred libraries, best practices, and workflows. For example, you might include rules about using TypeScript, following certain naming conventions, or always including comments for complex logic.
 
