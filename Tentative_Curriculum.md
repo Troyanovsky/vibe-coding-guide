@@ -235,44 +235,88 @@ The following curriculum structure for the rest of the lessons is tentative and 
     *   Start with basic techniques and gradually incorporate more sophisticated methods.
     *   Leverage your AI assistant by providing context and asking precise questions for effective problem-solving.
 
-**Module 10: Pro Tips for AI-Assisted Coding**
-*   **10.1. Version Control with Git (Conceptual Introduction):**
-    *   Why it's essential: Tracking changes, a "safety net" (undo mistakes), collaboration basics.
-    *   Analogy: Saving multiple versions of a design file, but more powerful.
-    *   Basic terms (simplified): Repository (your project folder), Commit (saving a snapshot of changes).
-    *   How AI tools might help: Some AI IDEs (like Cursor) have built-in Git integration.
-*   **10.2. Workflow Tips for AI-Assisted Projects:**
-    *   **Save & Commit Frequently:** Especially when iterating with AI.
-    *   **Use Git Branches for Experimentation:** Create a new branch (`git checkout -b my-new-feature`) for quick testing of new features or ideas suggested by the AI. If it works, merge it in; if not, throw the branch away (`git branch -D my-new-feature`). This provides a safe sandbox.
-    *   **Make Small Changes & Test:** Easier to pinpoint issues.
-    *   Break Down Complex Tasks (reinforces prompting strategy).
-    *   Learn to Read (a little) Code: Helps verify AI output and refine prompts.
-    *   **Use a Linter for Code Style:** Tools like linters (e.g., ESLint for JavaScript, Prettier for formatting) help enforce consistent code style, readability, and identify potential issues like function complexity or excessive lines of code. AI can often generate code that adheres to common linting rules if asked.
-    *   **Don't Trust, Verify:** *Always* test AI-generated code thoroughly.
-    *   **Quick Validation in a New Folder:** For completely new ideas or isolated components, quickly generate the code in a separate folder outside your main project. If it works, you can then carefully integrate it.
-    *   When designing tasks for AI, consider if they can be broken down into parallelizable units to improve efficiency, especially in multi-agent or multi-checkout environments. [reference](https://lucumr.pocoo.org/2025/6/12/agentic-coding/)
-    *   For complex projects or parallel exploration, consider having multiple local checkouts (clones) of your repository to allow different AI conversations or experiments to run concurrently without interfering with each other. [reference](https://www.anthropic.com/engineering/claude-code-best-practices)
-*   **10.3. Basic Project Organization:**
-    *   Simple module-based file/folder structure (great for separation of concerns and providing AI with specific context of where it broke).
-    *   Keeping reusable components/snippets organized.
-*   **10.4. Advanced Tip: Maximizing Request-Based Tools with User Input Utilities:**
-    *   **The Challenge:** When using chat-based AI tools (ChatGPT, Claude), you often need to manually copy/paste code snippets, error messages, or file contents back and forth.
-    *   **The Solution:** Create a simple "AI Helper" tool or use browser extensions that can:
-        *   Quickly capture and format code snippets for AI consumption
-        *   Auto-generate context-rich prompts with file contents
-        *   Format error messages with relevant code context
-        *   Save and organize your most effective prompts for reuse
-    *   **Example Workflow Enhancement:**
-        *   Instead of manually copying 5 files to show the AI your project structure, use a tool that generates: "Here's my current project structure: [auto-formatted file tree with key code snippets]"
-        *   Create templates like: "Debug this error: [auto-captured error] in file [auto-detected file] at line [auto-detected line] with context: [surrounding code]"
-    *   **DIY Approach:** Create a simple HTML tool with text areas and buttons that help format your AI requests consistently.
-*   **10.5. A Different Approach by Claude Code team (and others):**
-    *   Useful when you have **unlimited** usage of agents.
-    *   Treat it like a slot machine: Run agent, then test, if fails just roll back to earlier check point and run again, instead of wrestling with it to debug and fix.
-    *   **Reference:**
-        *   https://monadical.com/posts/vibe-code-how-to-stay-in-control.html
-        *   https://www-cdn.anthropic.com/58284b19e702b49db9302d5b6f135ad8871e7658.pdf
-    *   **Important Note:** This approach is most effective when you have a clear definition of the module's expected behavior and automated tests in place. In such a scenario, you can trust the AI to handle the inner implementation details as long as it passes the tests. However, if you lack clear requirements or tests, this approach will likely lead to unreliable and broken code.
+## Lesson 10: Pro Tips for AI-Assisted Coding
+
+*   **Why Professional Habits Matter:**
+    *   The difference between occasional success and consistent results comes from developing solid workflows and professional habits.
+    *   AI makes mistakes and iterates fast, requiring safety nets and systematic approaches.
+    *   Professional workflows help you orchestrate AI as a guided collaborator rather than hoping for lucky outcomes.
+
+*   **Version Control with Git: Your Safety Net:**
+    *   **Why Git is Crucial for AI Coding:**
+        *   AI makes mistakes and can break working code - Git lets you roll back to working states.
+        *   AI iterates fast through dozens of versions - Git tracks what actually worked.
+        *   Creates safe experimentation environment without fear of losing progress.
+    *   **Essential Git Concepts:**
+        *   Repository: Your project folder with change tracking superpowers.
+        *   Commit: A snapshot/checkpoint of your project at a specific point in time.
+        *   Branch: A separate timeline for safe experimentation without affecting main code.
+    *   **AI Integration:** Add rules for AI to handle Git operations automatically with descriptive commit messages using format `type: description`.
+
+*   **Workflow Tips That Actually Work:**
+    *   **Save & Commit Frequently:** Never be more than a few minutes away from a known-good state, especially when iterating with AI.
+    *   **Use Branches for Safe Experimentation:**
+        *   Create experimental branches (`git checkout -b experimental-feature`) for trying new approaches.
+        *   Let AI experiment wildly in safe sandbox - merge if successful, delete if failed.
+        *   No harm done, no time wasted trying to undo changes.
+    *   **Make Small Changes & Test Everything:**
+        *   Request incremental changes instead of massive overhauls.
+        *   Debug one small change rather than debugging complete rewrites.
+        *   Test happy path, edge cases, and error conditions thoroughly.
+    *   **Learn to Read Code (Just a Little):**
+        *   Develop basic pattern recognition to spot user interactions, data handling, and component structure.
+        *   Ask AI to create diagrams (Mermaid, sequence) to help understand code architecture.
+        *   Better code reading leads to better prompts and feedback.
+    *   **Use Linters for Code Quality:** Tools like ESLint and Prettier catch mistakes, enforce consistency, and identify performance issues automatically.
+    *   **"Don't Trust, Verify" Principle:** Always test AI-generated code thoroughly - treat it as guilty until proven innocent through professional testing.
+
+*   **Advanced Workflow Techniques:**
+    *   **Quick Validation in Separate Folders:**
+        *   Test completely new ideas in isolated prototype folders first.
+        *   Create `payment-test` or similar folders for testing integrations before main project integration.
+        *   Safer approach for testing third-party APIs, new frameworks, or complex algorithms.
+    *   **Parallel Development with Multiple Checkouts:**
+        *   Maintain multiple local repository copies for simultaneous AI conversations.
+        *   Example: `project-main/` (stable), `project-feature-A/` (authentication), `project-feature-B/` (UI experiments).
+        *   Each folder allows independent experimentation without interference.
+
+*   **Basic Project Organization:**
+    *   **Modular File Structure:**
+        *   Organize files logically: `src/components/`, `src/pages/`, `src/utils/`, `src/api/`, `tests/`, `docs/`, `assets/`.
+        *   Benefits: Focused AI context, easier debugging, better collaboration, parallel development potential.
+    *   **Component Organization:**
+        *   Keep reusable components well-organized with clear catalogs.
+        *   Document components in README files for both human and AI reference.
+        *   Structure: `components/ui/`, `components/forms/` with accompanying documentation.
+
+*   **The "Slot Machine" Approach (Advanced):**
+    *   **Philosophy:** AI generates → test → if fails, roll back and regenerate → repeat until working → commit.
+    *   **When This Works:**
+        *   Unlimited AI usage with no constraints.
+        *   Crystal-clear success criteria and requirements.
+        *   Automated tests for quick verification.
+        *   Well-defined modules with clear interfaces.
+    *   **When This Fails:**
+        *   Unclear success criteria or requirements.
+        *   Interconnected systems where failures cascade.
+        *   Learning-focused development where understanding matters.
+        *   Limited AI usage quotas or constraints.
+    *   **Critical Requirement:** Only effective with automated tests and clear definitions of expected behavior.
+
+*   **Professional AI-Assisted Development Workflow:**
+    *   Start with clean Git state and commit existing work.
+    *   Create experimental branches for new features.
+    *   Use organized project structure to provide clear AI context.
+    *   Make small, incremental changes with frequent testing.
+    *   Commit frequently when things work.
+    *   Test everything thoroughly before considering it complete.
+    *   Roll back fearlessly when experiments don't work out.
+
+*   **The Mindset Shift:**
+    *   Move from hoping AI gets things right to creating environments where both you and AI do your best work.
+    *   Become the architect and director, orchestrating sophisticated development workflows.
+    *   Focus on making mistakes recoverable, progress trackable, and success repeatable.
+    *   Professional approach gives confidence to tackle bigger, more ambitious projects.
 
 **Module 11: Hands-On Project: Build Your AI-Powered Prototype**
 *   *This module is the culmination, applying all learned skills. Allocate significant time.*

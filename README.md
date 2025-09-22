@@ -87,6 +87,18 @@ AI 模型在编程方面越来越出色了，Vibe Coding 氛围编程正受到�
 - This is a more advanced lesson that improves your quality of life when coding with AI by simplifying reusable component creation.
 - Using reusable components as gold standards can also make your AI-generated code more consistent and adhere to your code quality/style better.
 
+### Lesson 9: Testing, Debugging, and Quality Checks with AI
+[Link to Lesson 9](en/Lesson_9_Testing.md)
+
+- This lesson covers testing, debugging, and quality checks to ensure your AI-generated app actually works as expected.
+- If you want to build confidence in your prototypes and ship a quality product, this lesson is for you.
+
+### Lesson 10: Pro Tips for AI-Assisted Coding
+[Link to Lesson 10](en/Lesson_10_Pro_Tips.md)
+
+- This lesson is an "advanced playbook" of pro tips, workflows, and mindset shifts to level up your AI-assisted coding.
+- This lesson will help you level up from an enthusiastic beginner to a confident AI-assisted developer.
+
 ## Disclosure About the Use of AI 关于使用 AI 的说明
 I gather info and design the curriculum of this course. I wanted to share everything I learned along the way that I worked with AI coders in my own experience. For everything lesson, I write the main ideas & first drafts, but I rely on AI for fixing grammar mistakes & typos, making edits to make this read better, and translate them into Chinese. So some sentences may read like AI to you, but the ideas were by myself.
 
