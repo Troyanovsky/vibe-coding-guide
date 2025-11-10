@@ -46,34 +46,46 @@ AI 模型在编程方面越来越出色了，Vibe Coding 氛围编程正受到�
 - 如果你不知道什么是 Vibe Coding 以及它如何能帮助你，这节课就是为你准备的。
 
 ### Lesson 2: Your AI Coding Toolbelt
-[Link to Lesson 2](en/Lesson_2_Tools.md)
+[Link to Lesson 2](en/Lesson_2_Tools.md) ｜ [中文版第 2 课链接](zh/Lesson_2_Tools.md)
 
 - This lesson explores the different AI coding tools available on the market, recommendations for tools and the recommended initial set up (models/MCP/rules).
 - If you're unsure which tool to use, which models to choose for your AI coding tools, or need some tips on MCP and AI rules, this lesson is for you.
 
+- 本课探讨了市面上不同的 AI 编程工具，工具推荐以及推荐的初始设置（模型/MCP/规则）。
+- 如果你不确定使用哪种工具，为你的 AI 编程工具选择哪种模型，或者需要关于 MCP 和 AI 规则的提示，本课适合你。
+
 ### Lesson 3: AI-Assisted Coding Workflow
-[Link to Lesson 3](en/Lesson_3_Workflow.md)
+[Link to Lesson 3](en/Lesson_3_Workflow.md) ｜ [中文版第 3 课链接](zh/Lesson_3_Workflow.md)
 
 - This lesson walks you through my recommended workflow of building app from scratch with AI.
 - If you want to learn how to build a simple app from scratch with AI or want to make the AI-generated app more robust and maintainable, it's a recommended read.
 
+- 本课将引导你完成我推荐的从零开始使用 AI 构建应用程序的工作流程。
+- 如果你想学习如何使用 AI 从零开始构建一个简单的应用程序，或者想让 AI 生成的应用程序更健壮和可维护，那么本课值得一读。
+
 ### Lesson 4: Effective Prompting
-[Link to Lesson 4](en/Lesson_4_Prompt.md)
+[Link to Lesson 4](en/Lesson_4_Prompt.md) ｜ [中文版第 4 课链接](zh/Lesson_4_Prompt.md)
 
 - This lesson covers many important tips for effectively prompting AI coding tools for higher quality output.
 - If you feel that your AI coding tool often don't understand what you say or don't produce expected code, make sure you read this.
 
 ### Lesson 5: Understanding Code
-[Link to Lesson 5](en/Lesson_5_Code_Basics.md)
+[Link to Lesson 5](en/Lesson_5_Code_Basics.md) ｜ [中文版第 5 课链接](zh/Lesson_5_Code_Basics.md)
 
 - This lesson teaches the basics of code, including frontend vs backend, how they communicate, and their basic building blocks.
 - This lesson is useful if you don't know how to code/programming and need some primer of the baisc concepts to help you better communicate with AI coding tools.
 
+- 本课将介绍编程的基础，包括前端与后端的区别、它们之间如何通信，以及常见的基本构成元素。
+- 如果你还不会写代码/编程，这节课会很有帮助，它能让你先了解一些基本概念，以便你更好地与 AI 编程工具交流。
+
 ### Lesson 6: Frontend Prompting
-[Link to Lesson 6](en/Lesson_6_Frontend_Prompt.md)
+[Link to Lesson 6](en/Lesson_6_Frontend_Prompt.md) ｜ [中文版第 6 课链接](zh/Lesson_6_Frontend_Prompt.md)
 
 - This lesson teaches you how to write effective prompts for developing frontend (focusing on UI and UX) with AI coding tools, including analysis of a good prompt and tips for prompting.
 - This lesson is useful if you need to develop UI for your app.
+
+- 本课将教你如何为前端开发（尤其是界面和用户体验）编写高效的提示语，包括对优秀提示语的分析以及实用的提示技巧。
+- 如果你需要为你的应用开发界面，这节课会对你很有帮助。
 
 ### Lesson 7: Backend Prompting
 [Link to Lesson 7](en/Lesson_7_Backend_Prompt.md)
