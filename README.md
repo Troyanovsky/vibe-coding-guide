@@ -88,28 +88,40 @@ AI 模型在编程方面越来越出色了，Vibe Coding 氛围编程正受到�
 - 如果你需要为你的应用开发界面，这节课会对你很有帮助。
 
 ### Lesson 7: Backend Prompting
-[Link to Lesson 7](en/Lesson_7_Backend_Prompt.md)
+[Link to Lesson 7](en/Lesson_7_Backend_Prompt.md) | [中文版第 7 课链接](zh/Lesson_7_Backend_Prompt.md)
 
 - This is a lesson on writing effective prompts for developing backend (focusing on data and logic) with AI.
 - If you don't want to make a brittle app that breaks easily or leaks secrets, you should read this lesson.
 
+- 这节课将讲解如何为后端开发（重点在数据与逻辑）撰写高质量的提示语。
+- 如果你不想做出脆弱、容易出错或容易泄露机密的应用，那么你就应该认真读一读这一课。
+
 ### Lesson 8: Reusable Components
-[Link to Lesson 8](en/Lesson_8_Reusable_Components.md)
+[Link to Lesson 8](en/Lesson_8_Reusable_Components.md) | [中文版第 8 课链接](zh/Lesson_8_Reusable_Components.md)
 
 - This is a more advanced lesson that improves your quality of life when coding with AI by simplifying reusable component creation.
 - Using reusable components as gold standards can also make your AI-generated code more consistent and adhere to your code quality/style better.
 
+- 这是一节更进阶的课程，通过简化可复用组件的创建，让你在使用 AI 编码时的体验和效率都有明显提升。
+- 将可复用组件作为统一的标准，也能让 AI 生成的代码更加一致，并更好地符合你的代码质量和风格要求。
+
 ### Lesson 9: Testing, Debugging, and Quality Checks with AI
-[Link to Lesson 9](en/Lesson_9_Testing.md)
+[Link to Lesson 9](en/Lesson_9_Testing.md) | [中文版第 9 课链接](zh/Lesson_9_Testing.md)
 
 - This lesson covers testing, debugging, and quality checks to ensure your AI-generated app actually works as expected.
 - If you want to build confidence in your prototypes and ship a quality product, this lesson is for you.
 
+- 本课将讲解如何进行测试、调试和质量检查，确保你的 AI 生成应用能够按预期运行。
+- 如果你希望对自己的原型更有信心，并最终交付高质量的产品，那么这节课将非常适合你。
+
 ### Lesson 10: Pro Tips for AI-Assisted Coding
-[Link to Lesson 10](en/Lesson_10_Pro_Tips.md)
+[Link to Lesson 10](en/Lesson_10_Pro_Tips.md) ｜ [中文版第 10 课链接](zh/Lesson_10_Pro_Tips.md)
 
 - This lesson is an "advanced playbook" of pro tips, workflows, and mindset shifts to level up your AI-assisted coding.
 - This lesson will help you level up from an enthusiastic beginner to a confident AI-assisted developer.
+
+- 这节课是一份“进阶实战手册”，包含专业技巧、工作流程和思维方式的升级，帮助你提升 AI 辅助编码水平。
+- 通过本课的学习，你将从充满热情的初学者成长为能够自信使用 AI 进行开发的工程师。
 
 ## Disclosure About the Use of AI 关于使用 AI 的说明
 I gather info and design the curriculum of this course. I wanted to share everything I learned along the way that I worked with AI coders in my own experience. For everything lesson, I write the main ideas & first drafts, but I rely on AI for fixing grammar mistakes & typos, making edits to make this read better, and translate them into Chinese. So some sentences may read like AI to you, but the ideas were by myself.
